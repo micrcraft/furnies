@@ -1,0 +1,9 @@
+{
+	"replace": false,
+	"values": [
+		{"id": "furnies:light_freezer", "required": false},
+		{"id": "furnies:light_fridge", "required": false},
+		{"id": "furnies:dark_freezer", "required": false},
+		{"id": "furnies:dark_fridge", "required": false}
+	]
+}

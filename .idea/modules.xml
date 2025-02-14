@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/furnies.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/furnies.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/furnies.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/furnies.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/furnies.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/furnies.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/furnies.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/furnies.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/furnies.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/furnies.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/furnies.neoforge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/furnies.neoforge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/neoforge/furnies.neoforge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/neoforge/furnies.neoforge.test.iml" />
+    </modules>
+  </component>
+</project>

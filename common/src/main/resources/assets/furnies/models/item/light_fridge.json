@@ -1,0 +1,6 @@
+{
+    "parent": "furnies:block/template/fridge_full",
+    "textures": {
+        "2": "furnies:block/fridge/light_fridge"
+    }
+}

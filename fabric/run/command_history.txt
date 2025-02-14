@@ -1,0 +1,2 @@
+/time set 6000
+/gamerule doDaylightCycle false
