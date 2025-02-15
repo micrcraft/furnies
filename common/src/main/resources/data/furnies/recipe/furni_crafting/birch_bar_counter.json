@@ -1,0 +1,17 @@
+{
+    "type": "furnies:furni_crafting",
+    "materials": [
+        {
+            "count": 1,
+            "item": "minecraft:birch_planks"
+        },
+        {
+            "count": 1,
+            "item": "minecraft:calcite"
+        }
+    ],
+    "result": {
+        "id": "furnies:birch_bar_counter",
+        "count": 1
+    }
+}

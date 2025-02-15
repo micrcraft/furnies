@@ -1,0 +1,64 @@
+{
+    "variants": {
+        "facing=north,connected_left=false,connected_right=false": {
+            "model": "furnies:block/decorative_stairs/spruce_single"
+        },
+        "facing=north,connected_left=true,connected_right=false": {
+            "model": "furnies:block/decorative_stairs/spruce_left"
+        },
+        "facing=north,connected_left=false,connected_right=true": {
+            "model": "furnies:block/decorative_stairs/spruce_right"
+        },
+        "facing=north,connected_left=true,connected_right=true": {
+            "model": "furnies:block/decorative_stairs/spruce_middle"
+        },
+        "facing=east,connected_left=false,connected_right=false": {
+            "model": "furnies:block/decorative_stairs/spruce_single",
+            "y": 90
+        },
+        "facing=east,connected_left=true,connected_right=false": {
+            "model": "furnies:block/decorative_stairs/spruce_left",
+            "y": 90
+        },
+        "facing=east,connected_left=false,connected_right=true": {
+            "model": "furnies:block/decorative_stairs/spruce_right",
+            "y": 90
+        },
+        "facing=east,connected_left=true,connected_right=true": {
+            "model": "furnies:block/decorative_stairs/spruce_middle",
+            "y": 90
+        },
+        "facing=south,connected_left=false,connected_right=false": {
+            "model": "furnies:block/decorative_stairs/spruce_single",
+            "y": 180
+        },
+        "facing=south,connected_left=true,connected_right=false": {
+            "model": "furnies:block/decorative_stairs/spruce_left",
+            "y": 180
+        },
+        "facing=south,connected_left=false,connected_right=true": {
+            "model": "furnies:block/decorative_stairs/spruce_right",
+            "y": 180
+        },
+        "facing=south,connected_left=true,connected_right=true": {
+            "model": "furnies:block/decorative_stairs/spruce_middle",
+            "y": 180
+        },
+        "facing=west,connected_left=false,connected_right=false": {
+            "model": "furnies:block/decorative_stairs/spruce_single",
+            "y": 270
+        },
+        "facing=west,connected_left=true,connected_right=false": {
+            "model": "furnies:block/decorative_stairs/spruce_left",
+            "y": 270
+        },
+        "facing=west,connected_left=false,connected_right=true": {
+            "model": "furnies:block/decorative_stairs/spruce_right",
+            "y": 270
+        },
+        "facing=west,connected_left=true,connected_right=true": {
+            "model": "furnies:block/decorative_stairs/spruce_middle",
+            "y": 270
+        }
+    }
+}

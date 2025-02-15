@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "furnies:block/kitchen_sink/jungle"
+        },
+        "facing=east": {
+            "model": "furnies:block/kitchen_sink/jungle",
+            "y": 90
+        },
+        "facing=south": {
+            "model": "furnies:block/kitchen_sink/jungle",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "furnies:block/kitchen_sink/jungle",
+            "y": 270
+        }
+    }
+}

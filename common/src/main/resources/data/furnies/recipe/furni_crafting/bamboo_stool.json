@@ -1,0 +1,17 @@
+{
+    "type": "furnies:furni_crafting",
+    "materials": [
+        {
+            "count": 1,
+            "item": "minecraft:bamboo_planks"
+        },
+        {
+            "count": 2,
+            "item": "minecraft:stick"
+        }
+    ],
+    "result": {
+        "id": "furnies:bamboo_stool",
+        "count": 2
+    }
+}

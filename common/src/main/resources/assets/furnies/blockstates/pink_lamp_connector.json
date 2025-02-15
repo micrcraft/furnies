@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "base=true": {
+            "model": "furnies:block/template/lamp_tall_bottom"
+        },
+        "base=false": {
+            "model": "furnies:block/template/lamp_tall_middle"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "type": "furnies:furni_crafting",
+    "materials": [
+        {
+            "count": 3,
+            "item": "minecraft:blue_wool"
+        },
+        {
+            "count": 1,
+            "item": "minecraft:glowstone_dust"
+        }
+    ],
+    "result": {
+        "id": "furnies:blue_lamp",
+        "count": 1
+    }
+}

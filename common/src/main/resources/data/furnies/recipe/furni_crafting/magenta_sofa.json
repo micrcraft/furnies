@@ -1,0 +1,17 @@
+{
+    "type": "furnies:furni_crafting",
+    "materials": [
+        {
+            "count": 3,
+            "item": "minecraft:magenta_wool"
+        },
+        {
+            "count": 2,
+            "item": "minecraft:stick"
+        }
+    ],
+    "result": {
+        "id": "furnies:magenta_sofa",
+        "count": 1
+    }
+}

@@ -9,8 +9,13 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.crafting.Recipe;
+import net.minecraft.world.item.crafting.RecipeSerializer;
+import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;
@@ -28,6 +33,21 @@ public class FRegistry {
 
     @ExpectPlatform
     public static <T extends SoundEvent> Supplier<T> registerSoundEvent(String name, Supplier<T> soundEvent) {
+        throw new AssertionError();
+    }
+
+    @ExpectPlatform
+    public static <M extends AbstractContainerMenu> Supplier<MenuType<M>> registerMenuType(String name, Supplier<MenuType<M>> menuType) {
+        throw new AssertionError();
+    }
+
+    @ExpectPlatform
+    public static <T extends Recipe<?>> Supplier<RecipeType<T>> registerRecipeType(String name, Supplier<RecipeType<T>> recipeType) {
+        throw new AssertionError();
+    }
+
+    @ExpectPlatform
+    public static <T extends Recipe<?>> Supplier<RecipeSerializer<T>> registerRecipeSerializer(String name, Supplier<RecipeSerializer<T>> recipeSerializer) {
         throw new AssertionError();
     }
 

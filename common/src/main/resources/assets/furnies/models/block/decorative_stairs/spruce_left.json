@@ -1,0 +1,6 @@
+{
+    "parent": "furnies:block/template/decorative_stairs_left",
+    "textures": {
+        "1": "furnies:block/decorative_stairs/spruce"
+    }
+}

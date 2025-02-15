@@ -1,0 +1,13 @@
+{
+    "type": "furnies:furni_crafting",
+    "materials": [
+        {
+            "count": 1,
+            "item": "minecraft:crimson_planks"
+        }
+    ],
+    "result": {
+        "id": "furnies:crimson_cabinet",
+        "count": 1
+    }
+}

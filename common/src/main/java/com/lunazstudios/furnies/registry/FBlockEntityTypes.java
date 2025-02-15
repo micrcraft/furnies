@@ -64,5 +64,10 @@ public class FBlockEntityTypes {
                     FBlocks.DARK_FREEZER.get()
             ));
 
+    public static final Supplier<BlockEntityType<FurniCrafterBlockEntity>> FURNI_CRAFTER = FRegistry.registerBlockEntityType("furnicrafter",
+            () -> FRegistry.createBlockEntityType(FurniCrafterBlockEntity::new,
+                    FBlocks.FURNI_CRAFTER.get()
+            ));
+
     public static void init() {}
 }

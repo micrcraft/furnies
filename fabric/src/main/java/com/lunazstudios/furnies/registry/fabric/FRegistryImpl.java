@@ -14,8 +14,13 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.inventory.AbstractContainerMenu;
+import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.crafting.Recipe;
+import net.minecraft.world.item.crafting.RecipeSerializer;
+import net.minecraft.world.item.crafting.RecipeType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.entity.BlockEntityType;
@@ -30,6 +35,21 @@ public class FRegistryImpl {
     public static <T extends SoundEvent> Supplier<T> registerSoundEvent(String name, Supplier<T> soundEvent) {
         var registry = Registry.register(BuiltInRegistries.SOUND_EVENT, Furnies.id(name), soundEvent.get());
         return () -> registry;
+    }
+
+    public static <T extends Recipe<?>> Supplier<RecipeSerializer<T>> registerRecipeSerializer(String name, Supplier<RecipeSerializer<T>> recipeSerializer) {
+        RecipeSerializer<T> registered = Registry.register(BuiltInRegistries.RECIPE_SERIALIZER, Furnies.id(name), recipeSerializer.get());
+        return () -> registered;
+    }
+
+    public static <T extends Recipe<?>> Supplier<RecipeType<T>> registerRecipeType(String name, Supplier<RecipeType<T>> recipeType) {
+        RecipeType<T> registered = Registry.register(BuiltInRegistries.RECIPE_TYPE, Furnies.id(name), recipeType.get());
+        return () -> registered;
+    }
+
+    public static <M extends AbstractContainerMenu> Supplier<MenuType<M>> registerMenuType(String name, Supplier<MenuType<M>> menuType) {
+        MenuType<M> registered = Registry.register(BuiltInRegistries.MENU, Furnies.id(name), menuType.get());
+        return () -> registered;
     }
 
     public static <T extends Block> Supplier<T> registerBlock(String name, Supplier<T> block) {

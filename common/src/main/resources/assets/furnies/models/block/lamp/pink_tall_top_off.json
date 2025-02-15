@@ -1,0 +1,6 @@
+{
+    "parent": "furnies:block/template/lamp_tall_top_off",
+    "textures": {
+        "2": "furnies:block/lamp/pink"
+    }
+}

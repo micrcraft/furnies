@@ -1,0 +1,13 @@
+{
+    "type": "furnies:furni_crafting",
+    "materials": [
+        {
+            "count": 1,
+            "item": "minecraft:bamboo_planks"
+        }
+    ],
+    "result": {
+        "id": "furnies:bamboo_support",
+        "count": 1
+    }
+}

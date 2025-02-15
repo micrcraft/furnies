@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "group": "sofas",
+    "ingredients": [
+        {
+            "item": "furnies:white_sofa"
+        },
+        {
+            "item": "minecraft:lime_dye"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "furnies:lime_sofa"
+    }
+}

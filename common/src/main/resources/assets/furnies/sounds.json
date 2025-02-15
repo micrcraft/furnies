@@ -12,5 +12,19 @@
       "furnies:fridge_close"
     ],
     "subtitle": "subtitles.block.furnies.fridge.close"
+  },
+  "block.stove.close": {
+    "category": "block",
+    "sounds": [
+      "furnies:stove_close"
+    ],
+    "subtitle": "subtitles.block.furnies.stove.close"
+  },
+  "block.stove.open": {
+    "category": "block",
+    "sounds": [
+      "furnies:stove_open"
+    ],
+    "subtitle": "subtitles.block.furnies.stove.open"
   }
 }

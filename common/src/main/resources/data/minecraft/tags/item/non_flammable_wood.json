@@ -1,0 +1,22 @@
+{
+	"replace": false,
+	"values": [
+		{"id": "another_furniture:crimson_bar_counter", "required": false},
+		{"id": "another_furniture:crimson_cabinet", "required": false},
+		{"id": "another_furniture:crimson_chair", "required": false},
+		{"id": "another_furniture:crimson_kitchen_cabinet", "required": false},
+		{"id": "another_furniture:crimson_kitchen_cabinetry", "required": false},
+		{"id": "another_furniture:crimson_kitchen_drawer", "required": false},
+		{"id": "another_furniture:crimson_stool", "required": false},
+		{"id": "another_furniture:crimson_table", "required": false},
+
+		{"id": "another_furniture:warped_bar_counter", "required": false},
+		{"id": "another_furniture:warped_cabinet", "required": false},
+		{"id": "another_furniture:warped_chair", "required": false},
+		{"id": "another_furniture:warped_kitchen_cabinet", "required": false},
+		{"id": "another_furniture:warped_kitchen_cabinetry", "required": false},
+		{"id": "another_furniture:warped_kitchen_drawer", "required": false},
+		{"id": "another_furniture:warped_stool", "required": false},
+		{"id": "another_furniture:warped_table", "required": false}
+	]
+}

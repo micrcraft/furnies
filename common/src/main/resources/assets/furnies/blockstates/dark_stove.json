@@ -1,0 +1,35 @@
+{
+    "variants": {
+        "facing=north,open=true": {
+            "model": "furnies:block/stove/dark_stove_open"
+        },
+        "facing=east,open=true": {
+            "model": "furnies:block/stove/dark_stove_open",
+            "y": 90
+        },
+        "facing=south,open=true": {
+            "model": "furnies:block/stove/dark_stove_open",
+            "y": 180
+        },
+        "facing=west,open=true": {
+            "model": "furnies:block/stove/dark_stove_open",
+            "y": 270
+        },
+
+        "facing=north,open=false": {
+            "model": "furnies:block/stove/dark_stove_closed"
+        },
+        "facing=east,open=false": {
+            "model": "furnies:block/stove/dark_stove_closed",
+            "y": 90
+        },
+        "facing=south,open=false": {
+            "model": "furnies:block/stove/dark_stove_closed",
+            "y": 180
+        },
+        "facing=west,open=false": {
+            "model": "furnies:block/stove/dark_stove_closed",
+            "y": 270
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+	"replace": false,
+	"values": [
+		{"id": "furnies:white_lamp", "required": false},
+		{"id": "furnies:orange_lamp", "required": false},
+		{"id": "furnies:magenta_lamp", "required": false},
+		{"id": "furnies:light_blue_lamp", "required": false},
+		{"id": "furnies:yellow_lamp", "required": false},
+		{"id": "furnies:lime_lamp", "required": false},
+		{"id": "furnies:pink_lamp", "required": false},
+		{"id": "furnies:gray_lamp", "required": false},
+		{"id": "furnies:light_gray_lamp", "required": false},
+		{"id": "furnies:cyan_lamp", "required": false},
+		{"id": "furnies:purple_lamp", "required": false},
+		{"id": "furnies:blue_lamp", "required": false},
+		{"id": "furnies:brown_lamp", "required": false},
+		{"id": "furnies:green_lamp", "required": false},
+		{"id": "furnies:red_lamp", "required": false},
+		{"id": "furnies:black_lamp", "required": false}
+	]
+}

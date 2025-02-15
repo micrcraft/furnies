@@ -1,0 +1,6 @@
+{
+    "parent": "furnies:block/template/lamp_wall_off",
+    "textures": {
+        "2": "furnies:block/lamp/blue"
+    }
+}

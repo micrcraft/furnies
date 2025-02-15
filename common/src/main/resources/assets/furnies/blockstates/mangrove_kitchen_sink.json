@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "furnies:block/kitchen_sink/mangrove"
+        },
+        "facing=east": {
+            "model": "furnies:block/kitchen_sink/mangrove",
+            "y": 90
+        },
+        "facing=south": {
+            "model": "furnies:block/kitchen_sink/mangrove",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "furnies:block/kitchen_sink/mangrove",
+            "y": 270
+        }
+    }
+}

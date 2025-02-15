@@ -1,0 +1,21 @@
+{
+	"replace": false,
+	"values": [
+		{"id": "furnies:white_lamp_connector", "required": false},
+		{"id": "furnies:orange_lamp_connector", "required": false},
+		{"id": "furnies:magenta_lamp_connector", "required": false},
+		{"id": "furnies:light_blue_lamp_connector", "required": false},
+		{"id": "furnies:yellow_lamp_connector", "required": false},
+		{"id": "furnies:lime_lamp_connector", "required": false},
+		{"id": "furnies:pink_lamp_connector", "required": false},
+		{"id": "furnies:gray_lamp_connector", "required": false},
+		{"id": "furnies:light_gray_lamp_connector", "required": false},
+		{"id": "furnies:cyan_lamp_connector", "required": false},
+		{"id": "furnies:purple_lamp_connector", "required": false},
+		{"id": "furnies:blue_lamp_connector", "required": false},
+		{"id": "furnies:brown_lamp_connector", "required": false},
+		{"id": "furnies:green_lamp_connector", "required": false},
+		{"id": "furnies:red_lamp_connector", "required": false},
+		{"id": "furnies:black_lamp_connector", "required": false}
+	]
+}

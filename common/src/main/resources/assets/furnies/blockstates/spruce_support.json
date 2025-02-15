@@ -1,0 +1,120 @@
+{
+  "multipart": [
+    {
+      "when": { "facing": "north" },
+      "apply": { "model": "furnies:block/support/spruce_top" }
+    },
+    {
+      "when": { "facing": "east" },
+      "apply": { "model": "furnies:block/support/spruce_top", "y": 90 }
+    },
+    {
+      "when": { "facing": "south" },
+      "apply": { "model": "furnies:block/support/spruce_top", "y": 180 }
+    },
+    {
+      "when": { "facing": "west" },
+      "apply": { "model": "furnies:block/support/spruce_top", "y": 270 }
+    },
+
+    {
+      "when": {
+        "facing": "north",
+        "connected_right": "false",
+        "connected_left": "false"
+      },
+      "apply": { "model": "furnies:block/support/spruce_bottom" }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "connected_right": "true",
+        "connected_left": "false"
+      },
+      "apply": { "model": "furnies:block/support/spruce_bottom" }
+    },
+    {
+      "when": {
+        "facing": "north",
+        "connected_right": "false",
+        "connected_left": "true"
+      },
+      "apply": { "model": "furnies:block/support/spruce_bottom" }
+    },
+
+    {
+      "when": {
+        "facing": "east",
+        "connected_right": "false",
+        "connected_left": "false"
+      },
+      "apply": { "model": "furnies:block/support/spruce_bottom", "y": 90 }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "connected_right": "true",
+        "connected_left": "false"
+      },
+      "apply": { "model": "furnies:block/support/spruce_bottom", "y": 90 }
+    },
+    {
+      "when": {
+        "facing": "east",
+        "connected_right": "false",
+        "connected_left": "true"
+      },
+      "apply": { "model": "furnies:block/support/spruce_bottom", "y": 90 }
+    },
+
+    {
+      "when": {
+        "facing": "south",
+        "connected_right": "false",
+        "connected_left": "false"
+      },
+      "apply": { "model": "furnies:block/support/spruce_bottom", "y": 180 }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "connected_right": "true",
+        "connected_left": "false"
+      },
+      "apply": { "model": "furnies:block/support/spruce_bottom", "y": 180 }
+    },
+    {
+      "when": {
+        "facing": "south",
+        "connected_right": "false",
+        "connected_left": "true"
+      },
+      "apply": { "model": "furnies:block/support/spruce_bottom", "y": 180 }
+    },
+
+    {
+      "when": {
+        "facing": "west",
+        "connected_right": "false",
+        "connected_left": "false"
+      },
+      "apply": { "model": "furnies:block/support/spruce_bottom", "y": 270 }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "connected_right": "true",
+        "connected_left": "false"
+      },
+      "apply": { "model": "furnies:block/support/spruce_bottom", "y": 270 }
+    },
+    {
+      "when": {
+        "facing": "west",
+        "connected_right": "false",
+        "connected_left": "true"
+      },
+      "apply": { "model": "furnies:block/support/spruce_bottom", "y": 270 }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+	"replace": false,
+	"values": [
+		{"id": "furnies:acacia_decorative_stairs", "required": false},
+		{"id": "furnies:bamboo_decorative_stairs", "required": false},
+		{"id": "furnies:birch_decorative_stairs", "required": false},
+		{"id": "furnies:cherry_decorative_stairs", "required": false},
+		{"id": "furnies:crimson_decorative_stairs", "required": false},
+		{"id": "furnies:dark_oak_decorative_stairs", "required": false},
+		{"id": "furnies:jungle_decorative_stairs", "required": false},
+		{"id": "furnies:mangrove_decorative_stairs", "required": false},
+		{"id": "furnies:oak_decorative_stairs", "required": false},
+		{"id": "furnies:spruce_decorative_stairs", "required": false},
+		{"id": "furnies:warped_decorative_stairs", "required": false}
+	]
+}

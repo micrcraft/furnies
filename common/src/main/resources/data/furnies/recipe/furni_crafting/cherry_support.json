@@ -1,0 +1,13 @@
+{
+    "type": "furnies:furni_crafting",
+    "materials": [
+        {
+            "count": 1,
+            "item": "minecraft:cherry_planks"
+        }
+    ],
+    "result": {
+        "id": "furnies:cherry_support",
+        "count": 1
+    }
+}

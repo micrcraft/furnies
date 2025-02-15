@@ -27,49 +27,49 @@ public class KitchenCabinetryBlock extends Block implements SimpleWaterloggedBlo
     public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
     public static final EnumProperty<BarCounterType> TYPE = FBlockStateProperties.BAR_COUNTER_TYPE;
 
-    protected static final VoxelShape BARCOUNTER_NORTH = Shapes.or(
+    protected static final VoxelShape CABINETRY_NORTH = Shapes.or(
             Block.box(0, 0, 2, 16, 13, 16),
             Block.box(0, 13, 1, 16, 16, 16)
     );
-    protected static final VoxelShape BARCOUNTER_EAST = ShapeUtil.rotateShape(BARCOUNTER_NORTH, Direction.EAST);
-    protected static final VoxelShape BARCOUNTER_SOUTH = ShapeUtil.rotateShape(BARCOUNTER_NORTH, Direction.SOUTH);
-    protected static final VoxelShape BARCOUNTER_WEST = ShapeUtil.rotateShape(BARCOUNTER_NORTH, Direction.WEST);
+    protected static final VoxelShape CABINETRY_EAST = ShapeUtil.rotateShape(CABINETRY_NORTH, Direction.EAST);
+    protected static final VoxelShape CABINETRY_SOUTH = ShapeUtil.rotateShape(CABINETRY_NORTH, Direction.SOUTH);
+    protected static final VoxelShape CABINETRY_WEST = ShapeUtil.rotateShape(CABINETRY_NORTH, Direction.WEST);
 
-    protected static final VoxelShape BARCOUNTER_INNER_NORTH_LEFT = Shapes.or(
+    protected static final VoxelShape CABINETRY_INNER_NORTH_LEFT = Shapes.or(
             Block.box(0, 0, 2, 16, 13, 16),
             Block.box(2, 0, 0, 16, 13, 2),
             Block.box(0, 13, 1, 16, 16, 16),
             Block.box(1, 13, 0, 16, 16, 1)
     );
-    protected static final VoxelShape BARCOUNTER_INNER_EAST_LEFT = ShapeUtil.rotateShape(BARCOUNTER_INNER_NORTH_LEFT, Direction.EAST);
-    protected static final VoxelShape BARCOUNTER_INNER_SOUTH_LEFT = ShapeUtil.rotateShape(BARCOUNTER_INNER_NORTH_LEFT, Direction.SOUTH);
-    protected static final VoxelShape BARCOUNTER_INNER_WEST_LEFT = ShapeUtil.rotateShape(BARCOUNTER_INNER_NORTH_LEFT, Direction.WEST);
+    protected static final VoxelShape CABINETRY_INNER_EAST_LEFT = ShapeUtil.rotateShape(CABINETRY_INNER_NORTH_LEFT, Direction.EAST);
+    protected static final VoxelShape CABINETRY_INNER_SOUTH_LEFT = ShapeUtil.rotateShape(CABINETRY_INNER_NORTH_LEFT, Direction.SOUTH);
+    protected static final VoxelShape CABINETRY_INNER_WEST_LEFT = ShapeUtil.rotateShape(CABINETRY_INNER_NORTH_LEFT, Direction.WEST);
 
-    protected static final VoxelShape BARCOUNTER_OUTER_NORTH_LEFT = Shapes.or(
+    protected static final VoxelShape CABINETRY_OUTER_NORTH_LEFT = Shapes.or(
             Block.box(2, 0, 2, 16, 13, 16),
             Block.box(1, 13, 1, 16, 16, 16)
     );
-    protected static final VoxelShape BARCOUNTER_OUTER_EAST_LEFT = ShapeUtil.rotateShape(BARCOUNTER_OUTER_NORTH_LEFT, Direction.EAST);
-    protected static final VoxelShape BARCOUNTER_OUTER_SOUTH_LEFT = ShapeUtil.rotateShape(BARCOUNTER_OUTER_NORTH_LEFT, Direction.SOUTH);
-    protected static final VoxelShape BARCOUNTER_OUTER_WEST_LEFT = ShapeUtil.rotateShape(BARCOUNTER_OUTER_NORTH_LEFT, Direction.WEST);
+    protected static final VoxelShape CABINETRY_OUTER_EAST_LEFT = ShapeUtil.rotateShape(CABINETRY_OUTER_NORTH_LEFT, Direction.EAST);
+    protected static final VoxelShape CABINETRY_OUTER_SOUTH_LEFT = ShapeUtil.rotateShape(CABINETRY_OUTER_NORTH_LEFT, Direction.SOUTH);
+    protected static final VoxelShape CABINETRY_OUTER_WEST_LEFT = ShapeUtil.rotateShape(CABINETRY_OUTER_NORTH_LEFT, Direction.WEST);
 
-    protected static final VoxelShape BARCOUNTER_INNER_NORTH_RIGHT = Shapes.or(
+    protected static final VoxelShape CABINETRY_INNER_NORTH_RIGHT = Shapes.or(
             Block.box(0, 0, 2, 16, 13, 16),
             Block.box(0, 0, 0, 14, 13, 2),
             Block.box(0, 13, 1, 16, 16, 16),
             Block.box(0, 13, 0, 15, 16, 1)
     );
-    protected static final VoxelShape BARCOUNTER_INNER_EAST_RIGHT = ShapeUtil.rotateShape(BARCOUNTER_INNER_NORTH_RIGHT, Direction.EAST);
-    protected static final VoxelShape BARCOUNTER_INNER_SOUTH_RIGHT = ShapeUtil.rotateShape(BARCOUNTER_INNER_NORTH_RIGHT, Direction.SOUTH);
-    protected static final VoxelShape BARCOUNTER_INNER_WEST_RIGHT = ShapeUtil.rotateShape(BARCOUNTER_INNER_NORTH_RIGHT, Direction.WEST);
+    protected static final VoxelShape CABINETRY_INNER_EAST_RIGHT = ShapeUtil.rotateShape(CABINETRY_INNER_NORTH_RIGHT, Direction.EAST);
+    protected static final VoxelShape CABINETRY_INNER_SOUTH_RIGHT = ShapeUtil.rotateShape(CABINETRY_INNER_NORTH_RIGHT, Direction.SOUTH);
+    protected static final VoxelShape CABINETRY_INNER_WEST_RIGHT = ShapeUtil.rotateShape(CABINETRY_INNER_NORTH_RIGHT, Direction.WEST);
 
-    protected static final VoxelShape BARCOUNTER_OUTER_NORTH_RIGHT = Shapes.or(
+    protected static final VoxelShape CABINETRY_OUTER_NORTH_RIGHT = Shapes.or(
             Block.box(0, 0, 2, 14, 13, 16),
             Block.box(0, 13, 1, 15, 16, 16)
     );
-    protected static final VoxelShape BARCOUNTER_OUTER_EAST_RIGHT = ShapeUtil.rotateShape(BARCOUNTER_OUTER_NORTH_RIGHT, Direction.EAST);
-    protected static final VoxelShape BARCOUNTER_OUTER_SOUTH_RIGHT = ShapeUtil.rotateShape(BARCOUNTER_OUTER_NORTH_RIGHT, Direction.SOUTH);
-    protected static final VoxelShape BARCOUNTER_OUTER_WEST_RIGHT = ShapeUtil.rotateShape(BARCOUNTER_OUTER_NORTH_RIGHT, Direction.WEST);
+    protected static final VoxelShape CABINETRY_OUTER_EAST_RIGHT = ShapeUtil.rotateShape(CABINETRY_OUTER_NORTH_RIGHT, Direction.EAST);
+    protected static final VoxelShape CABINETRY_OUTER_SOUTH_RIGHT = ShapeUtil.rotateShape(CABINETRY_OUTER_NORTH_RIGHT, Direction.SOUTH);
+    protected static final VoxelShape CABINETRY_OUTER_WEST_RIGHT = ShapeUtil.rotateShape(CABINETRY_OUTER_NORTH_RIGHT, Direction.WEST);
 
     public KitchenCabinetryBlock(Properties properties) {
         super(properties);
@@ -107,34 +107,34 @@ public class KitchenCabinetryBlock extends Block implements SimpleWaterloggedBlo
 
         return switch (type) {
             case SINGLE -> switch (facing) {
-                case EAST -> BARCOUNTER_EAST;
-                case SOUTH -> BARCOUNTER_SOUTH;
-                case WEST -> BARCOUNTER_WEST;
-                default -> BARCOUNTER_NORTH;
+                case EAST -> CABINETRY_EAST;
+                case SOUTH -> CABINETRY_SOUTH;
+                case WEST -> CABINETRY_WEST;
+                default -> CABINETRY_NORTH;
             };
             case INNER_LEFT -> switch (facing) {
-                case EAST -> BARCOUNTER_INNER_EAST_LEFT;
-                case SOUTH -> BARCOUNTER_INNER_SOUTH_LEFT;
-                case WEST -> BARCOUNTER_INNER_WEST_LEFT;
-                default -> BARCOUNTER_INNER_NORTH_LEFT;
+                case EAST -> CABINETRY_INNER_EAST_LEFT;
+                case SOUTH -> CABINETRY_INNER_SOUTH_LEFT;
+                case WEST -> CABINETRY_INNER_WEST_LEFT;
+                default -> CABINETRY_INNER_NORTH_LEFT;
             };
             case INNER_RIGHT -> switch (facing) {
-                case EAST -> BARCOUNTER_INNER_EAST_RIGHT;
-                case SOUTH -> BARCOUNTER_INNER_SOUTH_RIGHT;
-                case WEST -> BARCOUNTER_INNER_WEST_RIGHT;
-                default -> BARCOUNTER_INNER_NORTH_RIGHT;
+                case EAST -> CABINETRY_INNER_EAST_RIGHT;
+                case SOUTH -> CABINETRY_INNER_SOUTH_RIGHT;
+                case WEST -> CABINETRY_INNER_WEST_RIGHT;
+                default -> CABINETRY_INNER_NORTH_RIGHT;
             };
             case OUTER_LEFT -> switch (facing) {
-                case EAST -> BARCOUNTER_OUTER_EAST_LEFT;
-                case SOUTH -> BARCOUNTER_OUTER_SOUTH_LEFT;
-                case WEST -> BARCOUNTER_OUTER_WEST_LEFT;
-                default -> BARCOUNTER_OUTER_NORTH_LEFT;
+                case EAST -> CABINETRY_OUTER_EAST_LEFT;
+                case SOUTH -> CABINETRY_OUTER_SOUTH_LEFT;
+                case WEST -> CABINETRY_OUTER_WEST_LEFT;
+                default -> CABINETRY_OUTER_NORTH_LEFT;
             };
             case OUTER_RIGHT -> switch (facing) {
-                case EAST -> BARCOUNTER_OUTER_EAST_RIGHT;
-                case SOUTH -> BARCOUNTER_OUTER_SOUTH_RIGHT;
-                case WEST -> BARCOUNTER_OUTER_WEST_RIGHT;
-                default -> BARCOUNTER_OUTER_NORTH_RIGHT;
+                case EAST -> CABINETRY_OUTER_EAST_RIGHT;
+                case SOUTH -> CABINETRY_OUTER_SOUTH_RIGHT;
+                case WEST -> CABINETRY_OUTER_WEST_RIGHT;
+                default -> CABINETRY_OUTER_NORTH_RIGHT;
             };
         };
     }

@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "group": "lamps",
+    "ingredients": [
+        {
+            "item": "furnies:white_lamp"
+        },
+        {
+            "item": "minecraft:green_dye"
+        }
+    ],
+    "result": {
+        "count": 1,
+        "id": "furnies:green_lamp"
+    }
+}

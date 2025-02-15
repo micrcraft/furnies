@@ -1,0 +1,6 @@
+{
+    "parent": "furnies:block/template/stove_open",
+    "textures": {
+        "0": "furnies:block/stove/light_stove"
+    }
+}

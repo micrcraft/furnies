@@ -1,0 +1,6 @@
+{
+    "parent": "furnies:block/template/support_bottom",
+    "textures": {
+        "1": "furnies:block/support/spruce"
+    }
+}

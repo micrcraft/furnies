@@ -1,0 +1,13 @@
+{
+    "type": "furnies:furni_crafting",
+    "materials": [
+        {
+            "count": 1,
+            "item": "minecraft:mangrove_planks"
+        }
+    ],
+    "result": {
+        "id": "furnies:mangrove_cabinet",
+        "count": 1
+    }
+}

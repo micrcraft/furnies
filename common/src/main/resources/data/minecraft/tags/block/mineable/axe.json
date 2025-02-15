@@ -8,6 +8,11 @@
       {"id": "#furnies:bar_counters", "required": false},
       {"id": "#furnies:kitchen_cabinets", "required": false},
       {"id": "#furnies:kitchen_drawers", "required": false},
-      {"id": "#furnies:kitchen_cabinetry", "required": false}
+      {"id": "#furnies:kitchen_cabinetry", "required": false},
+      {"id": "#furnies:lamps", "required": false},
+      {"id": "#furnies:lamp_connectors", "required": false},
+      {"id": "#furnies:kitchen_sinks", "required": false},
+      {"id": "#furnies:supports", "required": false},
+      {"id": "#furnies:decorative_stairs", "required": false}
     ]
 }
