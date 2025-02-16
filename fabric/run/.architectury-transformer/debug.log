@@ -1,5 +1,5 @@
 [Architectury Transformer] Architectury Runtime 5.2.87
-[Architectury Transformer DEBUG] Closed File Systems for C:\Arquives\DEV\Furnies\common\build\devlibs\Furnies-common-0.2-dev.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Arquives\DEV\Furnies\common\build\devlibs\Furnies-common-1.0-dev.jar
 [Architectury Transformer DEBUG] Preparing tiny remapper prepared transformer: dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Provided 110 classpath jar(s):
 [Architectury Transformer DEBUG]  - C:\Users\giflu\.gradle\caches\modules-2\files-2.1\dev.architectury\architectury-injectables\1.0.10\62db2a366d662606d1b23ad02ccc3212ed37ec3\architectury-injectables-1.0.10.jar
@@ -112,15 +112,15 @@
 [Architectury Transformer DEBUG]  - C:\Arquives\DEV\Furnies\.gradle\loom-cache\remapped_mods\loom_mappings_1_21_1_layered_hash_40545_v2\net\fabricmc\fabric-api\fabric-resource-loader-v0\1.3.1+5b5275af19\fabric-resource-loader-v0-1.3.1+5b5275af19.jar
 [Architectury Transformer DEBUG]  - C:\Arquives\DEV\Furnies\.gradle\loom-cache\remapped_mods\loom_mappings_1_21_1_layered_hash_40545_v2\net\fabricmc\fabric-api\fabric-sound-api-v1\1.0.23+6573ed8c19\fabric-sound-api-v1-1.0.23+6573ed8c19.jar
 [Architectury Transformer DEBUG]  - C:\Arquives\DEV\Furnies\.gradle\loom-cache\remapped_mods\loom_mappings_1_21_1_layered_hash_40545_v2\net\fabricmc\fabric-api\fabric-transitive-access-wideners-v1\6.2.0+45b9699719\fabric-transitive-access-wideners-v1-6.2.0+45b9699719.jar
-[Architectury Transformer] Read classpath in 1.826 s
-[Architectury Transformer DEBUG] Closed File Systems for C:\Arquives\DEV\Furnies\common\build\devlibs\Furnies-common-0.2-dev.jar
-[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Arquives\DEV\Furnies\common\build\devlibs\Furnies-common-0.2-dev.jar to C:\Users\giflu\AppData\Local\Temp\16144450604687685073.jar: 
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@77ccd734
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@1c441b38
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@390d7327
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@71dbf2b3
-[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@60bffecb
-[Architectury Transformer DEBUG] Transforming from C:\Arquives\DEV\Furnies\common\build\devlibs\Furnies-common-0.2-dev.jar to C:\Users\giflu\AppData\Local\Temp\16144450604687685073.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
+[Architectury Transformer] Read classpath in 1.576 s
+[Architectury Transformer DEBUG] Closed File Systems for C:\Arquives\DEV\Furnies\common\build\devlibs\Furnies-common-1.0-dev.jar
+[Architectury Transformer DEBUG] Transforming 5 transformer(s) from C:\Arquives\DEV\Furnies\common\build\devlibs\Furnies-common-1.0-dev.jar to C:\Users\giflu\AppData\Local\Temp\10612468252654284406.jar: 
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RuntimeMixinRefmapDetector@63c51a61
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.GenerateFakeFabricMod@40fdbd2f
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformExpectPlatform@6ec2e728
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.RemapInjectables@518fc2b2
+[Architectury Transformer DEBUG]  - dev.architectury.transformer.transformers.TransformPlatformOnly@1ad2dcf0
+[Architectury Transformer DEBUG] Transforming from C:\Arquives\DEV\Furnies\common\build\devlibs\Furnies-common-1.0-dev.jar to C:\Users\giflu\AppData\Local\Temp\10612468252654284406.jar with 5 transformer(s) on dev.architectury.transformer.handler.SimpleTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/BarCounterBlock$1 with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/BarCounterBlock with maxs=true frames=true
@@ -128,8 +128,12 @@
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/CabinetBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/ChairBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/DecorativeStairs with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/DrawerBlock$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/DrawerBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/entity/CabinetBlockEntity$1 with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/entity/CabinetBlockEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/entity/DrawerBlockEntity$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/entity/DrawerBlockEntity with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/entity/FreezerBlockEntity$1 with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/entity/FreezerBlockEntity with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/entity/FridgeBlockEntity$1 with maxs=true frames=true
@@ -171,6 +175,7 @@
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/ToiletBlock with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/TVBlock$1 with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/TVBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/WoodPath with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/client/FurniesClient with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/client/renderer/entity/SeatRenderer with maxs=true frames=true
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/client/screen/ClientFurnicrafterRecipeIngredientTooltip with maxs=true frames=true
@@ -208,324 +213,348 @@
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/util/block/ShapeUtil with maxs=true frames=true
 [Architectury Transformer DEBUG] Checking whether /Furnies-common-common-refmap.json is a mixin config.
 [Architectury Transformer DEBUG] Checking whether /furnies.mixins.json is a mixin config.
-[Architectury Transformer DEBUG] Closed File Systems for C:\Users\giflu\AppData\Local\Temp\16144450604687685073.jar
-[Architectury Transformer] Listening at C:\Arquives\DEV\Furnies\common\build\devlibs\Furnies-common-0.2-dev.jar
-[Architectury Transformer DEBUG] Temporary jar [C:\Users\giflu\AppData\Local\Temp\16144450604687685073.jar] contains packages: com.lunazstudios.furnies, com.lunazstudios.furnies.item, com.lunazstudios.furnies.client, com.lunazstudios.furnies.block, com.lunazstudios.furnies.recipe, com.lunazstudios.furnies.network.message, com.lunazstudios.furnies.client.renderer.entity, com.lunazstudios.furnies.mixin.client, com.lunazstudios.furnies.client.screen, com.lunazstudios.furnies.entity, com.lunazstudios.furnies.util.block, com.lunazstudios.furnies.network, com.lunazstudios.furnies.menu, com.lunazstudios.furnies.block.properties, com.lunazstudios.furnies.registry, com.lunazstudios.furnies.block.entity
-[Architectury Transformer DEBUG] Closed File Systems for C:\Arquives\DEV\Furnies\common\build\devlibs\Furnies-common-0.2-dev.jar
+[Architectury Transformer DEBUG] Closed File Systems for C:\Users\giflu\AppData\Local\Temp\10612468252654284406.jar
+[Architectury Transformer] Listening at C:\Arquives\DEV\Furnies\common\build\devlibs\Furnies-common-1.0-dev.jar
+[Architectury Transformer DEBUG] Temporary jar [C:\Users\giflu\AppData\Local\Temp\10612468252654284406.jar] contains packages: com.lunazstudios.furnies, com.lunazstudios.furnies.item, com.lunazstudios.furnies.client, com.lunazstudios.furnies.block, com.lunazstudios.furnies.recipe, com.lunazstudios.furnies.network.message, com.lunazstudios.furnies.client.renderer.entity, com.lunazstudios.furnies.mixin.client, com.lunazstudios.furnies.client.screen, com.lunazstudios.furnies.entity, com.lunazstudios.furnies.util.block, com.lunazstudios.furnies.network, com.lunazstudios.furnies.menu, com.lunazstudios.furnies.block.properties, com.lunazstudios.furnies.registry, com.lunazstudios.furnies.block.entity
+[Architectury Transformer DEBUG] Closed File Systems for C:\Arquives\DEV\Furnies\common\build\devlibs\Furnies-common-1.0-dev.jar
 [Architectury Transformer DEBUG] Classpath entry [C:\Arquives\DEV\Furnies\fabric\build\resources\main] contains packages: 
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/mixin/client/GuiGraphicsInvoker.class to com/lunazstudios/furnies/mixin/client/GuiGraphicsInvoker.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/mixin/client/GuiGraphicsInvoker with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/mixin/client/GuiGraphicsInvoker in 2.806 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/mixin/client/GuiGraphicsInvoker in 1.513 ms
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/Furnies.class to com/lunazstudios/furnies/Furnies.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/Furnies with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/Furnies in 1.499 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/Furnies in 926.2 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/registry/FBlocks.class to com/lunazstudios/furnies/registry/FBlocks.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/registry/FBlocks with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FBlocks in 9.013 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FBlocks in 9.342 ms
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/FurniCrafterBlock.class to com/lunazstudios/furnies/block/FurniCrafterBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/FurniCrafterBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/FurniCrafterBlock in 1.549 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/FurniCrafterBlock in 1.641 ms
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/ToiletBlock.class to com/lunazstudios/furnies/block/ToiletBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/ToiletBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/ToiletBlock in 2.295 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/ToiletBlock in 1.251 ms
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/SeatBlock.class to com/lunazstudios/furnies/block/SeatBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/SeatBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/SeatBlock in 1.419 ms
-[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/FreezerBlock.class to com/lunazstudios/furnies/block/FreezerBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/FreezerBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/FreezerBlock in 1.286 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/SeatBlock in 1.322 ms
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/SofaBlock.class to com/lunazstudios/furnies/block/SofaBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/SofaBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/SofaBlock in 2.765 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/SofaBlock in 2.856 ms
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/util/block/HammerableBlock.class to com/lunazstudios/furnies/util/block/HammerableBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/util/block/HammerableBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/util/block/HammerableBlock in 878.0 μs
-[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/StoveBlock.class to com/lunazstudios/furnies/block/StoveBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/util/block/HammerableBlock in 506.2 μs
+[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/FreezerBlock.class to com/lunazstudios/furnies/block/FreezerBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/StoveBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/StoveBlock in 1.629 ms
+[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/FreezerBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/FreezerBlock in 1.629 ms
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/FridgeBlock.class to com/lunazstudios/furnies/block/FridgeBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/FridgeBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/FridgeBlock in 1.329 ms
-[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/KitchenDrawerBlock.class to com/lunazstudios/furnies/block/KitchenDrawerBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/FridgeBlock in 1.942 ms
+[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/StoveBlock.class to com/lunazstudios/furnies/block/StoveBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/KitchenDrawerBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/KitchenDrawerBlock in 2.462 ms
-[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/KitchenSinkBlock.class to com/lunazstudios/furnies/block/KitchenSinkBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/KitchenSinkBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/KitchenSinkBlock in 1.460 ms
-[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/BarCounterBlock.class to com/lunazstudios/furnies/block/BarCounterBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/BarCounterBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/BarCounterBlock in 2.347 ms
-[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/KitchenCabinetryBlock.class to com/lunazstudios/furnies/block/KitchenCabinetryBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/KitchenCabinetryBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/KitchenCabinetryBlock in 1.371 ms
-[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/StoolBlock.class to com/lunazstudios/furnies/block/StoolBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/StoolBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/StoolBlock in 1.192 ms
-[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/KitchenCabinetBlock.class to com/lunazstudios/furnies/block/KitchenCabinetBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/KitchenCabinetBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/KitchenCabinetBlock in 3.084 ms
-[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/LampBlock.class to com/lunazstudios/furnies/block/LampBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/LampBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/LampBlock in 2.055 ms
-[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/LampConnectorBlock.class to com/lunazstudios/furnies/block/LampConnectorBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/LampConnectorBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/LampConnectorBlock in 1.632 ms
-[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/DecorativeStairs.class to com/lunazstudios/furnies/block/DecorativeStairs.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/DecorativeStairs with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/DecorativeStairs in 1.258 ms
-[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/FurnitureHorizontalBlock.class to com/lunazstudios/furnies/block/FurnitureHorizontalBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/FurnitureHorizontalBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/FurnitureHorizontalBlock in 835.3 μs
-[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/CabinetBlock.class to com/lunazstudios/furnies/block/CabinetBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
-[Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/CabinetBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/CabinetBlock in 1.771 ms
+[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/StoveBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/StoveBlock in 1.060 ms
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/SupportBlock.class to com/lunazstudios/furnies/block/SupportBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/SupportBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/SupportBlock in 1.569 ms
-[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/ChairBlock.class to com/lunazstudios/furnies/block/ChairBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/SupportBlock in 1.015 ms
+[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/FurnitureHorizontalBlock.class to com/lunazstudios/furnies/block/FurnitureHorizontalBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
-[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/ChairBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/ChairBlock in 1.433 ms
+[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/FurnitureHorizontalBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/FurnitureHorizontalBlock in 618.1 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/TableBlock.class to com/lunazstudios/furnies/block/TableBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/TableBlock with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/TableBlock in 1.721 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/TableBlock in 983.4 μs
+[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/ChairBlock.class to com/lunazstudios/furnies/block/ChairBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/ChairBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/ChairBlock in 1.032 ms
+[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/KitchenCabinetryBlock.class to com/lunazstudios/furnies/block/KitchenCabinetryBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/KitchenCabinetryBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/KitchenCabinetryBlock in 2.217 ms
+[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/KitchenDrawerBlock.class to com/lunazstudios/furnies/block/KitchenDrawerBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/KitchenDrawerBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/KitchenDrawerBlock in 1.687 ms
+[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/DrawerBlock.class to com/lunazstudios/furnies/block/DrawerBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/DrawerBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/DrawerBlock in 1.231 ms
+[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/KitchenSinkBlock.class to com/lunazstudios/furnies/block/KitchenSinkBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/KitchenSinkBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/KitchenSinkBlock in 1.072 ms
+[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/KitchenCabinetBlock.class to com/lunazstudios/furnies/block/KitchenCabinetBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/KitchenCabinetBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/KitchenCabinetBlock in 2.725 ms
+[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/StoolBlock.class to com/lunazstudios/furnies/block/StoolBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/StoolBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/StoolBlock in 1.059 ms
+[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/BarCounterBlock.class to com/lunazstudios/furnies/block/BarCounterBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/BarCounterBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/BarCounterBlock in 2.164 ms
+[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/CabinetBlock.class to com/lunazstudios/furnies/block/CabinetBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/CabinetBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/CabinetBlock in 1.596 ms
+[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/WoodPath.class to com/lunazstudios/furnies/block/WoodPath.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/WoodPath with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/WoodPath in 943.0 μs
+[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/LampBlock.class to com/lunazstudios/furnies/block/LampBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/LampBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/LampBlock in 1.868 ms
+[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/LampConnectorBlock.class to com/lunazstudios/furnies/block/LampConnectorBlock.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/LampConnectorBlock with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/LampConnectorBlock in 1.332 ms
+[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/DecorativeStairs.class to com/lunazstudios/furnies/block/DecorativeStairs.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/DecorativeStairs with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/DecorativeStairs in 920.9 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/registry/FRegistry.class to com/lunazstudios/furnies/registry/FRegistry.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/registry/FRegistry with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FRegistry in 1.286 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FRegistry in 993.2 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/entity/FurniCrafterBlockEntity.class to com/lunazstudios/furnies/block/entity/FurniCrafterBlockEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/entity/FurniCrafterBlockEntity with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/entity/FurniCrafterBlockEntity in 739.6 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/entity/FurniCrafterBlockEntity in 646.9 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/registry/FBlocks$Properties.class to com/lunazstudios/furnies/registry/FBlocks$Properties.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/registry/FBlocks$Properties with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FBlocks$Properties in 3.190 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FBlocks$Properties in 705.1 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/entity/SeatEntity.class to com/lunazstudios/furnies/entity/SeatEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/entity/SeatEntity with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/entity/SeatEntity in 1.360 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/entity/SeatEntity in 909.1 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/util/block/ShapeUtil.class to com/lunazstudios/furnies/util/block/ShapeUtil.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/util/block/ShapeUtil with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/util/block/ShapeUtil in 1.152 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/util/block/ShapeUtil in 1.004 ms
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/util/block/ShapeUtil$1.class to com/lunazstudios/furnies/util/block/ShapeUtil$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/util/block/ShapeUtil$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/util/block/ShapeUtil$1 in 855.1 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/util/block/ShapeUtil$1 in 522.3 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/entity/FreezerBlockEntity.class to com/lunazstudios/furnies/block/entity/FreezerBlockEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/entity/FreezerBlockEntity with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/entity/FreezerBlockEntity in 2.980 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/entity/FreezerBlockEntity in 791.4 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/entity/FridgeBlockEntity.class to com/lunazstudios/furnies/block/entity/FridgeBlockEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/entity/FridgeBlockEntity with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/entity/FridgeBlockEntity in 809.0 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/entity/FridgeBlockEntity in 962.0 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/properties/FBlockStateProperties.class to com/lunazstudios/furnies/block/properties/FBlockStateProperties.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/properties/FBlockStateProperties with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/properties/FBlockStateProperties in 759.7 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/properties/FBlockStateProperties in 501.3 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/properties/SofaType.class to com/lunazstudios/furnies/block/properties/SofaType.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/properties/SofaType with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/properties/SofaType in 499.4 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/properties/SofaType in 605.3 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/properties/BarCounterType.class to com/lunazstudios/furnies/block/properties/BarCounterType.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/properties/BarCounterType with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/properties/BarCounterType in 404.6 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/properties/BarCounterType in 492.6 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/properties/KitchenCabinetType.class to com/lunazstudios/furnies/block/properties/KitchenCabinetType.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/properties/KitchenCabinetType with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/properties/KitchenCabinetType in 772.9 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/properties/KitchenCabinetType in 275.2 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/entity/CabinetBlockEntity.class to com/lunazstudios/furnies/block/entity/CabinetBlockEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/entity/CabinetBlockEntity with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/entity/CabinetBlockEntity in 961.6 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/entity/CabinetBlockEntity in 738.2 μs
+[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/entity/DrawerBlockEntity.class to com/lunazstudios/furnies/block/entity/DrawerBlockEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/entity/DrawerBlockEntity with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/entity/DrawerBlockEntity in 788.0 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/entity/KitchenCabinetBlockEntity.class to com/lunazstudios/furnies/block/entity/KitchenCabinetBlockEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/entity/KitchenCabinetBlockEntity with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/entity/KitchenCabinetBlockEntity in 1.207 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/entity/KitchenCabinetBlockEntity in 773.7 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/entity/KitchenDrawerBlockEntity.class to com/lunazstudios/furnies/block/entity/KitchenDrawerBlockEntity.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/entity/KitchenDrawerBlockEntity with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/entity/KitchenDrawerBlockEntity in 1.076 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/entity/KitchenDrawerBlockEntity in 842.0 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/registry/FItems.class to com/lunazstudios/furnies/registry/FItems.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/registry/FItems with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FItems in 664.7 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FItems in 425.3 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/item/HammerItem.class to com/lunazstudios/furnies/item/HammerItem.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/item/HammerItem with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/item/HammerItem in 207.8 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/item/HammerItem in 159.0 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/registry/FBlockTags.class to com/lunazstudios/furnies/registry/FBlockTags.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/registry/FBlockTags with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FBlockTags in 907.8 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FBlockTags in 267.8 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/registry/FEntityTypes.class to com/lunazstudios/furnies/registry/FEntityTypes.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/registry/FEntityTypes with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FEntityTypes in 691.1 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FEntityTypes in 228.3 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/registry/FEntityTypeTags.class to com/lunazstudios/furnies/registry/FEntityTypeTags.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/registry/FEntityTypeTags with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FEntityTypeTags in 852.4 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FEntityTypeTags in 313.0 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/registry/FBlockEntityTypes.class to com/lunazstudios/furnies/registry/FBlockEntityTypes.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/registry/FBlockEntityTypes with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FBlockEntityTypes in 1.160 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FBlockEntityTypes in 804.7 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/registry/FRegistry$BlockEntitySupplier.class to com/lunazstudios/furnies/registry/FRegistry$BlockEntitySupplier.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/registry/FRegistry$BlockEntitySupplier with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FRegistry$BlockEntitySupplier in 635.2 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FRegistry$BlockEntitySupplier in 305.3 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/entity/CabinetBlockEntity$1.class to com/lunazstudios/furnies/block/entity/CabinetBlockEntity$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/entity/CabinetBlockEntity$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/entity/CabinetBlockEntity$1 in 618.3 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/entity/CabinetBlockEntity$1 in 454.3 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/entity/KitchenCabinetBlockEntity$1.class to com/lunazstudios/furnies/block/entity/KitchenCabinetBlockEntity$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/entity/KitchenCabinetBlockEntity$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/entity/KitchenCabinetBlockEntity$1 in 488.5 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/entity/KitchenCabinetBlockEntity$1 in 567.9 μs
+[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/entity/DrawerBlockEntity$1.class to com/lunazstudios/furnies/block/entity/DrawerBlockEntity$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/entity/DrawerBlockEntity$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/entity/DrawerBlockEntity$1 in 733.4 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/entity/KitchenDrawerBlockEntity$1.class to com/lunazstudios/furnies/block/entity/KitchenDrawerBlockEntity$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/entity/KitchenDrawerBlockEntity$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/entity/KitchenDrawerBlockEntity$1 in 616.1 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/entity/KitchenDrawerBlockEntity$1 in 435.2 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/entity/FridgeBlockEntity$1.class to com/lunazstudios/furnies/block/entity/FridgeBlockEntity$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/entity/FridgeBlockEntity$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/entity/FridgeBlockEntity$1 in 458.8 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/entity/FridgeBlockEntity$1 in 594.2 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/entity/FreezerBlockEntity$1.class to com/lunazstudios/furnies/block/entity/FreezerBlockEntity$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/entity/FreezerBlockEntity$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/entity/FreezerBlockEntity$1 in 1.798 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/entity/FreezerBlockEntity$1 in 284.1 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/menu/FurniCrafterMenu.class to com/lunazstudios/furnies/menu/FurniCrafterMenu.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/menu/FurniCrafterMenu with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/menu/FurniCrafterMenu in 1.527 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/menu/FurniCrafterMenu in 1.339 ms
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/registry/FSoundEvents.class to com/lunazstudios/furnies/registry/FSoundEvents.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/registry/FSoundEvents with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FSoundEvents in 620.0 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FSoundEvents in 445.0 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/registry/FItemTags.class to com/lunazstudios/furnies/registry/FItemTags.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/registry/FItemTags with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FItemTags in 525.5 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FItemTags in 269.1 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/registry/FRecipes.class to com/lunazstudios/furnies/registry/FRecipes.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/registry/FRecipes with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FRecipes in 1.002 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FRecipes in 319.7 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/registry/FRecipes$1.class to com/lunazstudios/furnies/registry/FRecipes$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/registry/FRecipes$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FRecipes$1 in 274.2 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FRecipes$1 in 185.5 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/recipe/FurniCraftingRecipe$Serializer.class to com/lunazstudios/furnies/recipe/FurniCraftingRecipe$Serializer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/recipe/FurniCraftingRecipe$Serializer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/recipe/FurniCraftingRecipe$Serializer in 677.3 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/recipe/FurniCraftingRecipe$Serializer in 961.3 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/recipe/FurniCraftingRecipe.class to com/lunazstudios/furnies/recipe/FurniCraftingRecipe.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/recipe/FurniCraftingRecipe with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/recipe/FurniCraftingRecipe in 1.177 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/recipe/FurniCraftingRecipe in 721.6 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/recipe/CountedIngredient.class to com/lunazstudios/furnies/recipe/CountedIngredient.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/recipe/CountedIngredient with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/recipe/CountedIngredient in 962.9 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/recipe/CountedIngredient in 656.8 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/registry/FMenus.class to com/lunazstudios/furnies/registry/FMenus.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/registry/FMenus with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FMenus in 591.2 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/registry/FMenus in 472.2 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/menu/FurniCrafterMenu$1.class to com/lunazstudios/furnies/menu/FurniCrafterMenu$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/menu/FurniCrafterMenu$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/menu/FurniCrafterMenu$1 in 550.1 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/menu/FurniCrafterMenu$1 in 297.1 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/network/FNetwork.class to com/lunazstudios/furnies/network/FNetwork.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/network/FNetwork with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/network/FNetwork in 526.5 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/network/FNetwork in 493.7 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/network/message/CraftRecipeMessage.class to com/lunazstudios/furnies/network/message/CraftRecipeMessage.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/network/message/CraftRecipeMessage with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/network/message/CraftRecipeMessage in 1.272 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/network/message/CraftRecipeMessage in 690.4 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/network/message/SyncCraftableRecipesMessage.class to com/lunazstudios/furnies/network/message/SyncCraftableRecipesMessage.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/network/message/SyncCraftableRecipesMessage with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/network/message/SyncCraftableRecipesMessage in 1.298 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/network/message/SyncCraftableRecipesMessage in 1.062 ms
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/client/FurniesClient.class to com/lunazstudios/furnies/client/FurniesClient.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/client/FurniesClient with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/client/FurniesClient in 564.4 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/client/FurniesClient in 363.6 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/client/renderer/entity/SeatRenderer.class to com/lunazstudios/furnies/client/renderer/entity/SeatRenderer.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/client/renderer/entity/SeatRenderer with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/client/renderer/entity/SeatRenderer in 1.052 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/client/renderer/entity/SeatRenderer in 490.6 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/client/screen/FurniCrafterScreen.class to com/lunazstudios/furnies/client/screen/FurniCrafterScreen.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/client/screen/FurniCrafterScreen with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/client/screen/FurniCrafterScreen in 2.707 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/client/screen/FurniCrafterScreen in 1.434 ms
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/FreezerBlock$1.class to com/lunazstudios/furnies/block/FreezerBlock$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/FreezerBlock$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/FreezerBlock$1 in 961.8 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/FreezerBlock$1 in 1.175 ms
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/FridgeBlock$1.class to com/lunazstudios/furnies/block/FridgeBlock$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/FridgeBlock$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/FridgeBlock$1 in 420.9 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/FridgeBlock$1 in 321.3 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/SofaBlock$1.class to com/lunazstudios/furnies/block/SofaBlock$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/SofaBlock$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/SofaBlock$1 in 370.8 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/SofaBlock$1 in 403.6 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/SupportBlock$1.class to com/lunazstudios/furnies/block/SupportBlock$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/SupportBlock$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/SupportBlock$1 in 426.3 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/SupportBlock$1 in 479.5 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/LampBlock$1.class to com/lunazstudios/furnies/block/LampBlock$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/LampBlock$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/LampBlock$1 in 545.8 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/LampBlock$1 in 439.0 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/CabinetBlock$1.class to com/lunazstudios/furnies/block/CabinetBlock$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/CabinetBlock$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/CabinetBlock$1 in 369.2 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/CabinetBlock$1 in 434.5 μs
+[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/DrawerBlock$1.class to com/lunazstudios/furnies/block/DrawerBlock$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/DrawerBlock$1 with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/DrawerBlock$1 in 389.2 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/BarCounterBlock$1.class to com/lunazstudios/furnies/block/BarCounterBlock$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/BarCounterBlock$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/BarCounterBlock$1 in 619.2 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/BarCounterBlock$1 in 382.3 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/KitchenCabinetBlock$1.class to com/lunazstudios/furnies/block/KitchenCabinetBlock$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/KitchenCabinetBlock$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/KitchenCabinetBlock$1 in 583.2 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/KitchenCabinetBlock$1 in 463.6 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/KitchenDrawerBlock$1.class to com/lunazstudios/furnies/block/KitchenDrawerBlock$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/KitchenDrawerBlock$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/KitchenDrawerBlock$1 in 399.8 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/KitchenDrawerBlock$1 in 337.2 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/block/KitchenCabinetryBlock$1.class to com/lunazstudios/furnies/block/KitchenCabinetryBlock$1.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/block/KitchenCabinetryBlock$1 with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/KitchenCabinetryBlock$1 in 403.7 μs
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/block/KitchenCabinetryBlock$1 in 464.6 μs
 [Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/client/screen/ClientFurnicrafterRecipeTooltip.class to com/lunazstudios/furnies/client/screen/ClientFurnicrafterRecipeTooltip.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
 [Architectury Transformer DEBUG] Found class transformer
 [Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/client/screen/ClientFurnicrafterRecipeTooltip with maxs=true frames=true
-[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/client/screen/ClientFurnicrafterRecipeTooltip in 1.048 ms
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/client/screen/ClientFurnicrafterRecipeTooltip in 1.375 ms
+[Architectury Transformer DEBUG] Transforming from com/lunazstudios/furnies/client/screen/ClientFurnicrafterRecipeIngredientTooltip.class to com/lunazstudios/furnies/client/screen/ClientFurnicrafterRecipeIngredientTooltip.class with 5 transformer(s) on dev.architectury.transformer.handler.TinyRemapperPreparedTransformerHandler
+[Architectury Transformer DEBUG] Found class transformer
+[Architectury Transformer DEBUG] Writing com/lunazstudios/furnies/client/screen/ClientFurnicrafterRecipeIngredientTooltip with maxs=true frames=true
+[Architectury Transformer DEBUG] Transformed com/lunazstudios/furnies/client/screen/ClientFurnicrafterRecipeIngredientTooltip in 645.0 μs

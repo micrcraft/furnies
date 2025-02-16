@@ -13,6 +13,9 @@
       {"id": "#furnies:lamp_connectors", "required": false},
       {"id": "#furnies:kitchen_sinks", "required": false},
       {"id": "#furnies:supports", "required": false},
-      {"id": "#furnies:decorative_stairs", "required": false}
+      {"id": "#furnies:decorative_stairs", "required": false},
+      {"id": "#furnies:wood_paths", "required": false},
+      {"id": "#furnies:drawers", "required": false},
+      {"id": "furnies:furnicrafter", "required": false}
     ]
 }

@@ -177,6 +177,18 @@
     "block.furnies.crimson_stool": "Crimson Stool",
     "block.furnies.warped_stool": "Warped Stool",
 
+    "block.furnies.oak_wood_path": "Oak Wood Path",
+    "block.furnies.spruce_wood_path": "Spruce Wood Path",
+    "block.furnies.birch_wood_path": "Birch Wood Path",
+    "block.furnies.jungle_wood_path": "Jungle Wood Path",
+    "block.furnies.acacia_wood_path": "Acacia Wood Path",
+    "block.furnies.dark_oak_wood_path": "Dark Oak Wood Path",
+    "block.furnies.mangrove_wood_path": "Mangrove Wood Path",
+    "block.furnies.cherry_wood_path": "Cherry Wood Path",
+    "block.furnies.bamboo_wood_path": "Bamboo Wood Path",
+    "block.furnies.crimson_wood_path": "Crimson Wood Path",
+    "block.furnies.warped_wood_path": "Warped Wood Path",
+
     "block.furnies.oak_kitchen_cabinet": "Oak Kitchen Cabinet",
     "block.furnies.spruce_kitchen_cabinet": "Spruce Kitchen Cabinet",
     "block.furnies.birch_kitchen_cabinet": "Birch Kitchen Cabinet",

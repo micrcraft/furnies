@@ -1,0 +1,13 @@
+{
+    "type": "furnies:furni_crafting",
+    "materials": [
+        {
+            "count": 1,
+            "item": "minecraft:spruce_planks"
+        }
+    ],
+    "result": {
+        "id": "furnies:spruce_drawer",
+        "count": 1
+    }
+}

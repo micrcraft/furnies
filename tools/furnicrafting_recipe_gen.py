@@ -76,7 +76,7 @@ def get_lamp_recipe(color):
         "type": "furnies:furni_crafting",
         "materials": [
             {
-                "count": 3,
+                "count": 1,
                 "item": f"minecraft:{color}_wool"
             },
             {
@@ -235,6 +235,36 @@ def get_sofa_recipe(color):
         }
     }
 
+def get_drawer_recipe(wood):
+    return {
+        "type": "furnies:furni_crafting",
+        "materials": [
+            {
+                "count": 1,
+                "item": f"minecraft:{wood}_planks"
+            }
+        ],
+        "result": {
+            "id": f"furnies:{wood}_drawer",
+            "count": 1
+        }
+    }
+
+def get_wood_path_recipe(wood):
+    return {
+        "type": "furnies:furni_crafting",
+        "materials": [
+            {
+                "count": 1,
+                "item": f"minecraft:{wood}_planks"
+            }
+        ],
+        "result": {
+            "id": f"furnies:{wood}_wood_path",
+            "count": 4
+        }
+    }
+
 # Function to save JSON data to a file
 def save_json_file(path, data):
     os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -266,9 +296,12 @@ def generate_recipes():
         save_json_file(lamp, get_lamp_recipe(color))
 
     # Generate recipes for each wood type
-    # for wood in woods:
-        #chair = os.path.join(base_dir, f"{wood}_chair.json")
-        #save_json_file(chair, get_wood_chair_recipe(wood))
+    for wood in woods:
+        drawer = os.path.join(base_dir, f"{wood}_drawer.json")
+        save_json_file(drawer, get_drawer_recipe(wood))
+
+        wood_path = os.path.join(base_dir, f"{wood}_wood_path.json")
+        save_json_file(wood_path, get_wood_path_recipe(wood))
 
         #table = os.path.join(base_dir, f"{wood}_table.json")
         #save_json_file(table, get_wood_table_recipe(wood))
