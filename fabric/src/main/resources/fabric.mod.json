@@ -20,6 +20,9 @@
     ],
     "client": [
       "com.lunazstudios.furnies.fabric.client.FurniesFabricClient"
+    ],
+    "rei_client": [
+      "com.lunazstudios.furnies.fabric.compat.FurniesREIClient"
     ]
   },
   "mixins": [

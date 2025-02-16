@@ -1,0 +1,17 @@
+{
+    "type": "furnies:furni_crafting",
+    "materials": [
+        {
+            "count": 3,
+            "item": "minecraft:iron_ingot"
+        },
+        {
+            "count": 1,
+            "item": "minecraft:flint_and_steel"
+        }
+    ],
+    "result": {
+        "id": "furnies:light_stove",
+        "count": 1
+    }
+}
