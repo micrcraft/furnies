@@ -1,0 +1,13 @@
+{
+    "type": "furnies:furni_crafting",
+    "materials": [
+        {
+            "count": 3,
+            "item": "minecraft:polished_deepslate"
+        }
+    ],
+    "result": {
+        "id": "furnies:polished_deepslate_path",
+        "count": 4
+    }
+}

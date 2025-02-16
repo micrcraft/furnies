@@ -30,6 +30,7 @@ public class FBlockTags {
     public static final TagKey<Block> TABLES = blockTag("tables");
     public static final TagKey<Block> TOILETS = blockTag("toilets");
     public static final TagKey<Block> WOOD_PATHS = blockTag("wood_paths");
+    public static final TagKey<Block> BENCHES = blockTag("benches");
 
     public static final TagKey<Block> ABOVE_BYPASSES_SEAT_CHECK = blockTag("above_bypasses_seat_check");
     public static final TagKey<Block> TABLES_CONNECTABLE = blockTag("table_connectable");

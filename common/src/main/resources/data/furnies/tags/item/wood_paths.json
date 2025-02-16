@@ -1,0 +1,16 @@
+{
+	"replace": false,
+	"values": [
+		{"id": "furnies:acacia_wood_path", "required": false},
+		{"id": "furnies:bamboo_wood_path", "required": false},
+		{"id": "furnies:birch_wood_path", "required": false},
+		{"id": "furnies:cherry_wood_path", "required": false},
+		{"id": "furnies:crimson_wood_path", "required": false},
+		{"id": "furnies:dark_oak_wood_path", "required": false},
+		{"id": "furnies:jungle_wood_path", "required": false},
+		{"id": "furnies:mangrove_wood_path", "required": false},
+		{"id": "furnies:oak_wood_path", "required": false},
+		{"id": "furnies:spruce_wood_path", "required": false},
+		{"id": "furnies:warped_wood_path", "required": false}
+	]
+}

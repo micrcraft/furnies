@@ -1,0 +1,16 @@
+{
+	"replace": false,
+	"values": [
+		{"id": "furnies:acacia_drawer", "required": false},
+		{"id": "furnies:bamboo_drawer", "required": false},
+		{"id": "furnies:birch_drawer", "required": false},
+		{"id": "furnies:cherry_drawer", "required": false},
+		{"id": "furnies:crimson_drawer", "required": false},
+		{"id": "furnies:dark_oak_drawer", "required": false},
+		{"id": "furnies:jungle_drawer", "required": false},
+		{"id": "furnies:mangrove_drawer", "required": false},
+		{"id": "furnies:oak_drawer", "required": false},
+		{"id": "furnies:spruce_drawer", "required": false},
+		{"id": "furnies:warped_drawer", "required": false}
+	]
+}

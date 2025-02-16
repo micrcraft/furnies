@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		{"id": "furnies:light_stove", "required": false},
+		{"id": "furnies:dark_stove", "required": false}
+	]
+}

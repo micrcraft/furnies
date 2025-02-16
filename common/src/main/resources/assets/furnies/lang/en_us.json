@@ -189,6 +189,18 @@
     "block.furnies.crimson_wood_path": "Crimson Wood Path",
     "block.furnies.warped_wood_path": "Warped Wood Path",
 
+    "block.furnies.oak_bench": "Oak Bench",
+    "block.furnies.spruce_bench": "Spruce Bench",
+    "block.furnies.birch_bench": "Birch Bench",
+    "block.furnies.jungle_bench": "Jungle Bench",
+    "block.furnies.acacia_bench": "Acacia Bench",
+    "block.furnies.dark_oak_bench": "Dark Oak Bench",
+    "block.furnies.mangrove_bench": "Mangrove Bench",
+    "block.furnies.cherry_bench": "Cherry Bench",
+    "block.furnies.bamboo_bench": "Bamboo Bench",
+    "block.furnies.crimson_bench": "Crimson Bench",
+    "block.furnies.warped_bench": "Warped Bench",
+
     "block.furnies.andesite_path": "Andesite Path",
     "block.furnies.blackstone_path": "Blackstone Path",
     "block.furnies.calcite_path": "Calcite Path",

@@ -1,0 +1,13 @@
+{
+    "type": "furnies:furni_crafting",
+    "materials": [
+        {
+            "count": 3,
+            "item": "minecraft:blackstone"
+        }
+    ],
+    "result": {
+        "id": "furnies:blackstone_path",
+        "count": 4
+    }
+}

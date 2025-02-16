@@ -87,6 +87,18 @@ public class FBlocks {
     public static final Supplier<Block> CRIMSON_TABLE = registerBlock("crimson_table", () -> new TableBlock(Properties.NETHER_WOOD));
     public static final Supplier<Block> WARPED_TABLE = registerBlock("warped_table", () -> new TableBlock(Properties.NETHER_WOOD));
 
+    public static final Supplier<Block> OAK_BENCH = registerBlock("oak_bench", () -> new BenchBlock(Properties.WOOD));
+    public static final Supplier<Block> SPRUCE_BENCH = registerBlock("spruce_bench", () -> new BenchBlock(Properties.WOOD));
+    public static final Supplier<Block> BIRCH_BENCH = registerBlock("birch_bench", () -> new BenchBlock(Properties.WOOD));
+    public static final Supplier<Block> JUNGLE_BENCH = registerBlock("jungle_bench", () -> new BenchBlock(Properties.WOOD));
+    public static final Supplier<Block> ACACIA_BENCH = registerBlock("acacia_bench", () -> new BenchBlock(Properties.WOOD));
+    public static final Supplier<Block> DARK_OAK_BENCH = registerBlock("dark_oak_bench", () -> new BenchBlock(Properties.WOOD));
+    public static final Supplier<Block> MANGROVE_BENCH = registerBlock("mangrove_bench", () -> new BenchBlock(Properties.WOOD));
+    public static final Supplier<Block> CHERRY_BENCH = registerBlock("cherry_bench", () -> new BenchBlock(Properties.CHERRY_WOOD));
+    public static final Supplier<Block> BAMBOO_BENCH = registerBlock("bamboo_bench", () -> new BenchBlock(Properties.BAMBOO_WOOD));
+    public static final Supplier<Block> CRIMSON_BENCH = registerBlock("crimson_bench", () -> new BenchBlock(Properties.NETHER_WOOD));
+    public static final Supplier<Block> WARPED_BENCH = registerBlock("warped_bench", () -> new BenchBlock(Properties.NETHER_WOOD));
+
     public static final Supplier<Block> OAK_SUPPORT = registerBlock("oak_support", () -> new SupportBlock(Properties.WOOD));
     public static final Supplier<Block> SPRUCE_SUPPORT = registerBlock("spruce_support", () -> new SupportBlock(Properties.WOOD));
     public static final Supplier<Block> BIRCH_SUPPORT = registerBlock("birch_support", () -> new SupportBlock(Properties.WOOD));

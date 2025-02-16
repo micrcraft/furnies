@@ -1,0 +1,13 @@
+{
+    "type": "furnies:furni_crafting",
+    "materials": [
+        {
+            "count": 3,
+            "item": "minecraft:tuff"
+        }
+    ],
+    "result": {
+        "id": "furnies:tuff_path",
+        "count": 4
+    }
+}

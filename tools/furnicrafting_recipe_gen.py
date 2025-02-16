@@ -2,6 +2,59 @@ import os
 import json
 
 # Define the templates for recipes
+def get_bench_recipe(wood):
+    return {
+        "type": "furnies:furni_crafting",
+        "materials": [
+            {
+                "count": 3,
+                "item": f"minecraft:{wood}_planks"
+            },
+            {
+                "count": 2,
+                "item": "minecraft:stick"
+            }
+        ],
+        "result": {
+            "id": f"furnies:{wood}_bench",
+            "count": 2
+        }
+    }
+
+def get_stone_path_recipe(stone):
+    return {
+        "type": "furnies:furni_crafting",
+        "materials": [
+            {
+                "count": 3,
+                "item": f"minecraft:{stone}"
+            }
+        ],
+        "result": {
+            "id": f"furnies:{stone}_path",
+            "count": 4
+        }
+    }
+
+def get_bench_recipe(wood):
+    return {
+        "type": "furnies:furni_crafting",
+        "materials": [
+            {
+                "count": 3,
+                "item": f"minecraft:{wood}_planks"
+            },
+            {
+                "count": 2,
+                "item": "minecraft:stick"
+            }
+        ],
+        "result": {
+            "id": f"furnies:{wood}_bench",
+            "count": 2
+        }
+    }
+
 def get_wood_chair_recipe(wood):
     return {
         "type": "furnies:furni_crafting",
@@ -276,6 +329,7 @@ def generate_recipes():
     # Read colors and woods from the JSON files
     script_dir = os.path.dirname(os.path.abspath(__file__))
     colors_file = os.path.join(script_dir, "colors.json")
+    stones_file = os.path.join(script_dir, "stones.json")
     woods_file = os.path.join(script_dir, "woods.json")
 
     with open(colors_file, "r", encoding="utf-8") as f:
@@ -284,24 +338,35 @@ def generate_recipes():
     with open(woods_file, "r", encoding="utf-8") as f:
         woods = json.load(f)
 
+    with open(stones_file, "r", encoding="utf-8") as f:
+        stones = json.load(f)
+
     # Base directory for recipes
     base_dir = os.path.join(script_dir, "furnies", "recipes")
 
+    for stone in stones:
+        stone_path = os.path.join(base_dir, f"{stone}_path.json")
+        save_json_file(stone_path, get_stone_path_recipe(stone))
+
+
     # Generate recipes for each color
-    for color in colors:
+    #for color in colors:
         #sofa = os.path.join(base_dir, f"{color}_sofa.json")
         #save_json_file(sofa, get_sofa_recipe(color))
 
-        lamp = os.path.join(base_dir, f"{color}_lamp.json")
-        save_json_file(lamp, get_lamp_recipe(color))
+        #lamp = os.path.join(base_dir, f"{color}_lamp.json")
+        #save_json_file(lamp, get_lamp_recipe(color))
 
     # Generate recipes for each wood type
     for wood in woods:
-        drawer = os.path.join(base_dir, f"{wood}_drawer.json")
-        save_json_file(drawer, get_drawer_recipe(wood))
+        bench = os.path.join(base_dir, f"{wood}_bench.json")
+        save_json_file(bench, get_bench_recipe(wood))
 
-        wood_path = os.path.join(base_dir, f"{wood}_wood_path.json")
-        save_json_file(wood_path, get_wood_path_recipe(wood))
+        # drawer = os.path.join(base_dir, f"{wood}_drawer.json")
+        # save_json_file(drawer, get_drawer_recipe(wood))
+
+        # wood_path = os.path.join(base_dir, f"{wood}_wood_path.json")
+        # save_json_file(wood_path, get_wood_path_recipe(wood))
 
         #table = os.path.join(base_dir, f"{wood}_table.json")
         #save_json_file(table, get_wood_table_recipe(wood))

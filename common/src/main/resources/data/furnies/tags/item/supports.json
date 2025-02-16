@@ -1,0 +1,16 @@
+{
+	"replace": false,
+	"values": [
+		{"id": "furnies:acacia_support", "required": false},
+		{"id": "furnies:bamboo_support", "required": false},
+		{"id": "furnies:birch_support", "required": false},
+		{"id": "furnies:cherry_support", "required": false},
+		{"id": "furnies:crimson_support", "required": false},
+		{"id": "furnies:dark_oak_support", "required": false},
+		{"id": "furnies:jungle_support", "required": false},
+		{"id": "furnies:mangrove_support", "required": false},
+		{"id": "furnies:oak_support", "required": false},
+		{"id": "furnies:spruce_support", "required": false},
+		{"id": "furnies:warped_support", "required": false}
+	]
+}

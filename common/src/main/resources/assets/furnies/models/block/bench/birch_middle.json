@@ -1,0 +1,6 @@
+{
+    "parent": "furnies:block/template/bench_middle",
+    "textures": {
+        "1": "furnies:block/bench/birch"
+    }
+}

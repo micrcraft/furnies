@@ -7,6 +7,7 @@ import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 
 public class FBlockStateProperties {
+    public static final EnumProperty<HorizontalConnectionType> HORIZONTAL_CONNECTION_TYPE = EnumProperty.create("connection_type", HorizontalConnectionType.class);
     public static final IntegerProperty LEVEL_1_3 = IntegerProperty.create("level", 1, 3);
     public static final BooleanProperty BASE = BooleanProperty.create("base");
     public static final DirectionProperty FACING_EXCEPT_DOWN = DirectionProperty.create("facing", (direction) -> direction != Direction.DOWN);

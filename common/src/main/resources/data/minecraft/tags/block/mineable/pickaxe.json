@@ -3,6 +3,10 @@
     {"id": "#furnies:fridges", "required": false},
     {"id": "#furnies:toilets", "required": false},
     {"id": "#furnies:stone_paths", "required": false},
-    {"id": "#furnies:stoves", "required": false}
+    {"id": "#furnies:stoves", "required": false},
+    {"id": "#furnies:kitchen_sinks", "required": false},
+    {"id": "#furnies:kitchen_cabinetry", "required": false},
+    {"id": "#furnies:kitchen_drawers", "required": false},
+    {"id": "#furnies:bar_counters", "required": false}
   ]
 }

@@ -1,0 +1,6 @@
+{
+    "parent": "furnies:block/bench/mangrove_single",
+    "textures": {
+        "1": "furnies:block/bench/mangrove"
+    }
+}

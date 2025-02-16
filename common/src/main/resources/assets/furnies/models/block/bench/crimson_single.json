@@ -1,0 +1,6 @@
+{
+    "parent": "furnies:block/template/bench_single",
+    "textures": {
+        "1": "furnies:block/bench/crimson"
+    }
+}

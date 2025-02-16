@@ -1,0 +1,16 @@
+{
+	"replace": false,
+	"values": [
+		{"id": "furnies:acacia_bench", "required": false},
+		{"id": "furnies:bamboo_bench", "required": false},
+		{"id": "furnies:birch_bench", "required": false},
+		{"id": "furnies:cherry_bench", "required": false},
+		{"id": "furnies:crimson_bench", "required": false},
+		{"id": "furnies:dark_oak_bench", "required": false},
+		{"id": "furnies:jungle_bench", "required": false},
+		{"id": "furnies:mangrove_bench", "required": false},
+		{"id": "furnies:oak_bench", "required": false},
+		{"id": "furnies:spruce_bench", "required": false},
+		{"id": "furnies:warped_bench", "required": false}
+	]
+}

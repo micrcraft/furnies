@@ -14,6 +14,7 @@
 		{"id": "another_furniture:crimson_decorative_stairs", "required": false},
 		{"id": "another_furniture:crimson_wood_path", "required": false},
 		{"id": "another_furniture:crimson_drawer", "required": false},
+		{"id": "another_furniture:crimson_bench", "required": false},
 
 		{"id": "another_furniture:warped_bar_counter", "required": false},
 		{"id": "another_furniture:warped_cabinet", "required": false},
@@ -27,6 +28,7 @@
 		{"id": "another_furniture:warped_support", "required": false},
 		{"id": "another_furniture:warped_decorative_stairs", "required": false},
 		{"id": "another_furniture:warped_wood_path", "required": false},
-		{"id": "another_furniture:warped_drawer", "required": false}
+		{"id": "another_furniture:warped_drawer", "required": false},
+		{"id": "another_furniture:warped_bench", "required": false}
 	]
 }

@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		{"id": "furnies:light_toilet", "required": false},
+		{"id": "furnies:dark_toilet", "required": false}
+	]
+}

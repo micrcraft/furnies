@@ -25,6 +25,10 @@ public final class FurniesFabricClient implements ClientModInitializer {
                 FBlocks.JUNGLE_CHAIR.get(), FBlocks.ACACIA_CHAIR.get(), FBlocks.MANGROVE_CHAIR.get(), FBlocks.BAMBOO_CHAIR.get(),
                 FBlocks.CHERRY_CHAIR.get(), FBlocks.CRIMSON_CHAIR.get(), FBlocks.WARPED_CHAIR.get(),
 
+                FBlocks.OAK_BENCH.get(), FBlocks.SPRUCE_BENCH.get(), FBlocks.BIRCH_BENCH.get(), FBlocks.DARK_OAK_BENCH.get(),
+                FBlocks.JUNGLE_BENCH.get(), FBlocks.ACACIA_BENCH.get(), FBlocks.MANGROVE_BENCH.get(), FBlocks.BAMBOO_BENCH.get(),
+                FBlocks.CHERRY_BENCH.get(), FBlocks.CRIMSON_BENCH.get(), FBlocks.WARPED_BENCH.get(),
+
                 FBlocks.LIGHT_FREEZER.get(), FBlocks.LIGHT_FRIDGE.get(), FBlocks.DARK_FREEZER.get(), FBlocks.DARK_FRIDGE.get(),
 
                 FBlocks.OAK_KITCHEN_SINK.get(), FBlocks.SPRUCE_KITCHEN_SINK.get(), FBlocks.BIRCH_KITCHEN_SINK.get(), FBlocks.DARK_OAK_KITCHEN_SINK.get(),

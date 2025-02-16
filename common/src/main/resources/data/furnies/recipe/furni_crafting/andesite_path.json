@@ -1,0 +1,13 @@
+{
+    "type": "furnies:furni_crafting",
+    "materials": [
+        {
+            "count": 3,
+            "item": "minecraft:andesite"
+        }
+    ],
+    "result": {
+        "id": "furnies:andesite_path",
+        "count": 4
+    }
+}

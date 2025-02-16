@@ -1,0 +1,13 @@
+{
+    "type": "furnies:furni_crafting",
+    "materials": [
+        {
+            "count": 3,
+            "item": "minecraft:granite"
+        }
+    ],
+    "result": {
+        "id": "furnies:granite_path",
+        "count": 4
+    }
+}

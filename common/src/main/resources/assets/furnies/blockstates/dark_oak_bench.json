@@ -1,0 +1,64 @@
+{
+    "variants": {
+        "facing=north,connection_type=single": {
+            "model": "furnies:block/bench/dark_oak_single"
+        },
+        "facing=north,connection_type=left": {
+            "model": "furnies:block/bench/dark_oak_left"
+        },
+        "facing=north,connection_type=middle": {
+            "model": "furnies:block/bench/dark_oak_middle"
+        },
+        "facing=north,connection_type=right": {
+            "model": "furnies:block/bench/dark_oak_right"
+        },
+        "facing=east,connection_type=single": {
+            "model": "furnies:block/bench/dark_oak_single",
+            "y": 90
+        },
+        "facing=east,connection_type=left": {
+            "model": "furnies:block/bench/dark_oak_left",
+            "y": 90
+        },
+        "facing=east,connection_type=middle": {
+            "model": "furnies:block/bench/dark_oak_middle",
+            "y": 90
+        },
+        "facing=east,connection_type=right": {
+            "model": "furnies:block/bench/dark_oak_right",
+            "y": 90
+        },
+        "facing=south,connection_type=single": {
+            "model": "furnies:block/bench/dark_oak_single",
+            "y": 180
+        },
+        "facing=south,connection_type=left": {
+            "model": "furnies:block/bench/dark_oak_left",
+            "y": 180
+        },
+        "facing=south,connection_type=middle": {
+            "model": "furnies:block/bench/dark_oak_middle",
+            "y": 180
+        },
+        "facing=south,connection_type=right": {
+            "model": "furnies:block/bench/dark_oak_right",
+            "y": 180
+        },
+        "facing=west,connection_type=single": {
+            "model": "furnies:block/bench/dark_oak_single",
+            "y": 270
+        },
+        "facing=west,connection_type=left": {
+            "model": "furnies:block/bench/dark_oak_left",
+            "y": 270
+        },
+        "facing=west,connection_type=middle": {
+            "model": "furnies:block/bench/dark_oak_middle",
+            "y": 270
+        },
+        "facing=west,connection_type=right": {
+            "model": "furnies:block/bench/dark_oak_right",
+            "y": 270
+        }
+    }
+}
