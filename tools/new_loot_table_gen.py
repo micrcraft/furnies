@@ -31,12 +31,14 @@ def generate_loot_tables():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     
     # Ask user for palette type
-    palette_type = input("Which palette you want? (Colored/Wood): ").strip().lower()
+    palette_type = input("Which palette do you want? (Colored/Wood/Stone): ").strip().lower()
     
     if palette_type == "colored":
         palette_file = "colors.json"
     elif palette_type == "wood":
         palette_file = "woods.json"
+    elif palette_type == "stone":
+        palette_file = "stones.json"
     else:
         print("Invalid selection. Exiting.")
         return

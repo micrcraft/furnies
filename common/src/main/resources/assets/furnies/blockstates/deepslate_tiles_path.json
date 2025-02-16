@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "furnies:block/path/deepslate_tiles"
+        },
+        "facing=east": {
+            "model": "furnies:block/path/deepslate_tiles",
+            "y": 90
+        },
+        "facing=south": {
+            "model": "furnies:block/path/deepslate_tiles",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "furnies:block/path/deepslate_tiles",
+            "y": 270
+        }
+    }
+}

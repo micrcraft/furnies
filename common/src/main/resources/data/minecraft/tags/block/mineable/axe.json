@@ -16,6 +16,7 @@
       {"id": "#furnies:decorative_stairs", "required": false},
       {"id": "#furnies:wood_paths", "required": false},
       {"id": "#furnies:drawers", "required": false},
+
       {"id": "furnies:furnicrafter", "required": false}
     ]
 }

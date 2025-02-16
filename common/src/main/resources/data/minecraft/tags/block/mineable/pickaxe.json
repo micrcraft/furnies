@@ -1,6 +1,8 @@
 {
   "values": [
     {"id": "#furnies:fridges", "required": false},
-    {"id": "#furnies:toilets", "required": false}
+    {"id": "#furnies:toilets", "required": false},
+    {"id": "#furnies:stone_paths", "required": false},
+    {"id": "#furnies:stoves", "required": false}
   ]
 }

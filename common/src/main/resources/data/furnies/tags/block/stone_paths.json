@@ -1,0 +1,24 @@
+{
+	"replace": false,
+	"values": [
+		{ "id": "furnies:andesite_path", "required": false },
+		{ "id": "furnies:blackstone_path", "required": false },
+		{ "id": "furnies:calcite_path", "required": false },
+		{ "id": "furnies:cobbled_deepslate_path", "required": false },
+		{ "id": "furnies:deepslate_path", "required": false },
+		{ "id": "furnies:deepslate_tiles_path", "required": false },
+		{ "id": "furnies:deepslate_bricks_path", "required": false },
+		{ "id": "furnies:diorite_path", "required": false },
+		{ "id": "furnies:granite_path", "required": false },
+		{ "id": "furnies:polished_andesite_path", "required": false },
+		{ "id": "furnies:polished_blackstone_path", "required": false },
+		{ "id": "furnies:polished_deepslate_path", "required": false },
+		{ "id": "furnies:polished_diorite_path", "required": false },
+		{ "id": "furnies:polished_granite_path", "required": false },
+		{ "id": "furnies:polished_tuff_path", "required": false },
+		{ "id": "furnies:smooth_stone_path", "required": false },
+		{ "id": "furnies:stone_path", "required": false },
+		{ "id": "furnies:stone_bricks_path", "required": false },
+		{ "id": "furnies:tuff_path", "required": false }
+	]
+}

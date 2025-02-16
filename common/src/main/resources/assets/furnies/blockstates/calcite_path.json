@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "furnies:block/path/calcite"
+        },
+        "facing=east": {
+            "model": "furnies:block/path/calcite",
+            "y": 90
+        },
+        "facing=south": {
+            "model": "furnies:block/path/calcite",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "furnies:block/path/calcite",
+            "y": 270
+        }
+    }
+}

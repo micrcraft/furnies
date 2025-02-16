@@ -6,6 +6,7 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
@@ -22,6 +23,10 @@ public class FBlocks {
 
     public static class Properties {
         public static BlockBehaviour.Properties WOOD = Block.Properties.of().strength(2.0F, 3.0F).sound(SoundType.WOOD).ignitedByLava().mapColor(MapColor.WOOD).instrument(NoteBlockInstrument.BASS);
+        public static BlockBehaviour.Properties NETHER_WOOD = Block.Properties.of().strength(2.0F, 3.0F).sound(SoundType.NETHER_WOOD).mapColor(MapColor.WOOD);
+        public static BlockBehaviour.Properties BAMBOO_WOOD = WOOD.sound(SoundType.BAMBOO_WOOD);
+        public static BlockBehaviour.Properties CHERRY_WOOD = WOOD.sound(SoundType.CHERRY_WOOD);
+        public static BlockBehaviour.Properties STONE = Block.Properties.of().strength(1.5F, 6.0F).sound(SoundType.STONE).mapColor(MapColor.STONE).instrument(NoteBlockInstrument.BASEDRUM);
         public static BlockBehaviour.Properties MARBLE = Block.Properties.of().strength(1.5F, 6.0F).sound(SoundType.CALCITE).mapColor(MapColor.QUARTZ).instrument(NoteBlockInstrument.BASEDRUM);
         public static BlockBehaviour.Properties CONCRETE = Block.Properties.of().strength(1.8F).sound(SoundType.STONE).mapColor(MapColor.QUARTZ).instrument(NoteBlockInstrument.BASEDRUM);
         public static BlockBehaviour.Properties LAMP = WOOD.lightLevel((blockState) -> blockState.hasProperty(BlockStateProperties.LIT) && blockState.getValue(BlockStateProperties.LIT) ? (blockState.getValue(FBlockStateProperties.LEVEL_1_3) * 5) : 0);
@@ -65,10 +70,10 @@ public class FBlocks {
     public static final Supplier<Block> ACACIA_CHAIR = registerBlock("acacia_chair", () -> new ChairBlock(Properties.WOOD));
     public static final Supplier<Block> DARK_OAK_CHAIR = registerBlock("dark_oak_chair", () -> new ChairBlock(Properties.WOOD));
     public static final Supplier<Block> MANGROVE_CHAIR = registerBlock("mangrove_chair", () -> new ChairBlock(Properties.WOOD));
-    public static final Supplier<Block> CHERRY_CHAIR = registerBlock("cherry_chair", () -> new ChairBlock(Properties.WOOD));
-    public static final Supplier<Block> BAMBOO_CHAIR = registerBlock("bamboo_chair", () -> new ChairBlock(Properties.WOOD));
-    public static final Supplier<Block> CRIMSON_CHAIR = registerBlock("crimson_chair", () -> new ChairBlock(Properties.WOOD));
-    public static final Supplier<Block> WARPED_CHAIR = registerBlock("warped_chair", () -> new ChairBlock(Properties.WOOD));
+    public static final Supplier<Block> CHERRY_CHAIR = registerBlock("cherry_chair", () -> new ChairBlock(Properties.CHERRY_WOOD));
+    public static final Supplier<Block> BAMBOO_CHAIR = registerBlock("bamboo_chair", () -> new ChairBlock(Properties.BAMBOO_WOOD));
+    public static final Supplier<Block> CRIMSON_CHAIR = registerBlock("crimson_chair", () -> new ChairBlock(Properties.NETHER_WOOD));
+    public static final Supplier<Block> WARPED_CHAIR = registerBlock("warped_chair", () -> new ChairBlock(Properties.NETHER_WOOD));
 
     public static final Supplier<Block> OAK_TABLE = registerBlock("oak_table", () -> new TableBlock(Properties.WOOD));
     public static final Supplier<Block> SPRUCE_TABLE = registerBlock("spruce_table", () -> new TableBlock(Properties.WOOD));
@@ -77,10 +82,10 @@ public class FBlocks {
     public static final Supplier<Block> ACACIA_TABLE = registerBlock("acacia_table", () -> new TableBlock(Properties.WOOD));
     public static final Supplier<Block> DARK_OAK_TABLE = registerBlock("dark_oak_table", () -> new TableBlock(Properties.WOOD));
     public static final Supplier<Block> MANGROVE_TABLE = registerBlock("mangrove_table", () -> new TableBlock(Properties.WOOD));
-    public static final Supplier<Block> CHERRY_TABLE = registerBlock("cherry_table", () -> new TableBlock(Properties.WOOD));
-    public static final Supplier<Block> BAMBOO_TABLE = registerBlock("bamboo_table", () -> new TableBlock(Properties.WOOD));
-    public static final Supplier<Block> CRIMSON_TABLE = registerBlock("crimson_table", () -> new TableBlock(Properties.WOOD));
-    public static final Supplier<Block> WARPED_TABLE = registerBlock("warped_table", () -> new TableBlock(Properties.WOOD));
+    public static final Supplier<Block> CHERRY_TABLE = registerBlock("cherry_table", () -> new TableBlock(Properties.CHERRY_WOOD));
+    public static final Supplier<Block> BAMBOO_TABLE = registerBlock("bamboo_table", () -> new TableBlock(Properties.BAMBOO_WOOD));
+    public static final Supplier<Block> CRIMSON_TABLE = registerBlock("crimson_table", () -> new TableBlock(Properties.NETHER_WOOD));
+    public static final Supplier<Block> WARPED_TABLE = registerBlock("warped_table", () -> new TableBlock(Properties.NETHER_WOOD));
 
     public static final Supplier<Block> OAK_SUPPORT = registerBlock("oak_support", () -> new SupportBlock(Properties.WOOD));
     public static final Supplier<Block> SPRUCE_SUPPORT = registerBlock("spruce_support", () -> new SupportBlock(Properties.WOOD));
@@ -89,10 +94,10 @@ public class FBlocks {
     public static final Supplier<Block> ACACIA_SUPPORT = registerBlock("acacia_support", () -> new SupportBlock(Properties.WOOD));
     public static final Supplier<Block> DARK_OAK_SUPPORT = registerBlock("dark_oak_support", () -> new SupportBlock(Properties.WOOD));
     public static final Supplier<Block> MANGROVE_SUPPORT = registerBlock("mangrove_support", () -> new SupportBlock(Properties.WOOD));
-    public static final Supplier<Block> CHERRY_SUPPORT = registerBlock("cherry_support", () -> new SupportBlock(Properties.WOOD));
-    public static final Supplier<Block> BAMBOO_SUPPORT = registerBlock("bamboo_support", () -> new SupportBlock(Properties.WOOD));
-    public static final Supplier<Block> CRIMSON_SUPPORT = registerBlock("crimson_support", () -> new SupportBlock(Properties.WOOD));
-    public static final Supplier<Block> WARPED_SUPPORT = registerBlock("warped_support", () -> new SupportBlock(Properties.WOOD));
+    public static final Supplier<Block> CHERRY_SUPPORT = registerBlock("cherry_support", () -> new SupportBlock(Properties.CHERRY_WOOD));
+    public static final Supplier<Block> BAMBOO_SUPPORT = registerBlock("bamboo_support", () -> new SupportBlock(Properties.BAMBOO_WOOD));
+    public static final Supplier<Block> CRIMSON_SUPPORT = registerBlock("crimson_support", () -> new SupportBlock(Properties.NETHER_WOOD));
+    public static final Supplier<Block> WARPED_SUPPORT = registerBlock("warped_support", () -> new SupportBlock(Properties.NETHER_WOOD));
 
     public static final Supplier<Block> OAK_DECORATIVE_STAIRS = registerBlock("oak_decorative_stairs", () -> new DecorativeStairs(Properties.WOOD));
     public static final Supplier<Block> SPRUCE_DECORATIVE_STAIRS = registerBlock("spruce_decorative_stairs", () -> new DecorativeStairs(Properties.WOOD));
@@ -101,10 +106,10 @@ public class FBlocks {
     public static final Supplier<Block> ACACIA_DECORATIVE_STAIRS = registerBlock("acacia_decorative_stairs", () -> new DecorativeStairs(Properties.WOOD));
     public static final Supplier<Block> DARK_OAK_DECORATIVE_STAIRS = registerBlock("dark_oak_decorative_stairs", () -> new DecorativeStairs(Properties.WOOD));
     public static final Supplier<Block> MANGROVE_DECORATIVE_STAIRS = registerBlock("mangrove_decorative_stairs", () -> new DecorativeStairs(Properties.WOOD));
-    public static final Supplier<Block> CHERRY_DECORATIVE_STAIRS = registerBlock("cherry_decorative_stairs", () -> new DecorativeStairs(Properties.WOOD));
-    public static final Supplier<Block> BAMBOO_DECORATIVE_STAIRS = registerBlock("bamboo_decorative_stairs", () -> new DecorativeStairs(Properties.WOOD));
-    public static final Supplier<Block> CRIMSON_DECORATIVE_STAIRS = registerBlock("crimson_decorative_stairs", () -> new DecorativeStairs(Properties.WOOD));
-    public static final Supplier<Block> WARPED_DECORATIVE_STAIRS = registerBlock("warped_decorative_stairs", () -> new DecorativeStairs(Properties.WOOD));
+    public static final Supplier<Block> CHERRY_DECORATIVE_STAIRS = registerBlock("cherry_decorative_stairs", () -> new DecorativeStairs(Properties.CHERRY_WOOD));
+    public static final Supplier<Block> BAMBOO_DECORATIVE_STAIRS = registerBlock("bamboo_decorative_stairs", () -> new DecorativeStairs(Properties.BAMBOO_WOOD));
+    public static final Supplier<Block> CRIMSON_DECORATIVE_STAIRS = registerBlock("crimson_decorative_stairs", () -> new DecorativeStairs(Properties.NETHER_WOOD));
+    public static final Supplier<Block> WARPED_DECORATIVE_STAIRS = registerBlock("warped_decorative_stairs", () -> new DecorativeStairs(Properties.NETHER_WOOD));
 
     public static final Supplier<Block> OAK_WOOD_PATH = registerBlock("oak_wood_path", () -> new WoodPathBlock(Properties.WOOD));
     public static final Supplier<Block> SPRUCE_WOOD_PATH = registerBlock("spruce_wood_path", () -> new WoodPathBlock(Properties.WOOD));
@@ -113,11 +118,30 @@ public class FBlocks {
     public static final Supplier<Block> ACACIA_WOOD_PATH = registerBlock("acacia_wood_path", () -> new WoodPathBlock(Properties.WOOD));
     public static final Supplier<Block> DARK_OAK_WOOD_PATH = registerBlock("dark_oak_wood_path", () -> new WoodPathBlock(Properties.WOOD));
     public static final Supplier<Block> MANGROVE_WOOD_PATH = registerBlock("mangrove_wood_path", () -> new WoodPathBlock(Properties.WOOD));
-    public static final Supplier<Block> CHERRY_WOOD_PATH = registerBlock("cherry_wood_path", () -> new WoodPathBlock(Properties.WOOD));
-    public static final Supplier<Block> BAMBOO_WOOD_PATH = registerBlock("bamboo_wood_path", () -> new WoodPathBlock(Properties.WOOD));
-    public static final Supplier<Block> CRIMSON_WOOD_PATH = registerBlock("crimson_wood_path", () -> new WoodPathBlock(Properties.WOOD));
-    public static final Supplier<Block> WARPED_WOOD_PATH = registerBlock("warped_wood_path", () -> new WoodPathBlock(Properties.WOOD));
+    public static final Supplier<Block> CHERRY_WOOD_PATH = registerBlock("cherry_wood_path", () -> new WoodPathBlock(Properties.CHERRY_WOOD));
+    public static final Supplier<Block> BAMBOO_WOOD_PATH = registerBlock("bamboo_wood_path", () -> new WoodPathBlock(Properties.BAMBOO_WOOD));
+    public static final Supplier<Block> CRIMSON_WOOD_PATH = registerBlock("crimson_wood_path", () -> new WoodPathBlock(Properties.NETHER_WOOD));
+    public static final Supplier<Block> WARPED_WOOD_PATH = registerBlock("warped_wood_path", () -> new WoodPathBlock(Properties.NETHER_WOOD));
 
+    public static final Supplier<Block> ANDESITE_PATH = registerBlock("andesite_path", () -> new StonePathBlock(Properties.STONE));
+    public static final Supplier<Block> BLACKSTONE_PATH = registerBlock("blackstone_path", () -> new StonePathBlock(Properties.STONE));
+    public static final Supplier<Block> CALCITE_PATH = registerBlock("calcite_path", () -> new StonePathBlock(Properties.STONE));
+    public static final Supplier<Block> COBBLED_DEEPSLATE_PATH = registerBlock("cobbled_deepslate_path", () -> new StonePathBlock(Properties.STONE));
+    public static final Supplier<Block> DEEPSLATE_PATH = registerBlock("deepslate_path", () -> new StonePathBlock(Properties.STONE));
+    public static final Supplier<Block> DEEPSLATE_TILES_PATH = registerBlock("deepslate_tiles_path", () -> new StonePathBlock(Properties.STONE));
+    public static final Supplier<Block> DEEPSLATE_BRICKS_PATH = registerBlock("deepslate_bricks_path", () -> new StonePathBlock(Properties.STONE));
+    public static final Supplier<Block> DIORITE_PATH = registerBlock("diorite_path", () -> new StonePathBlock(Properties.STONE));
+    public static final Supplier<Block> GRANITE_PATH = registerBlock("granite_path", () -> new StonePathBlock(Properties.STONE));
+    public static final Supplier<Block> POLISHED_ANDESITE_PATH = registerBlock("polished_andesite_path", () -> new StonePathBlock(Properties.STONE));
+    public static final Supplier<Block> POLISHED_BLACKSTONE_PATH = registerBlock("polished_blackstone_path", () -> new StonePathBlock(Properties.STONE));
+    public static final Supplier<Block> POLISHED_DEEPSLATE_PATH = registerBlock("polished_deepslate_path", () -> new StonePathBlock(Properties.STONE));
+    public static final Supplier<Block> POLISHED_DIORITE_PATH = registerBlock("polished_diorite_path", () -> new StonePathBlock(Properties.STONE));
+    public static final Supplier<Block> POLISHED_GRANITE_PATH = registerBlock("polished_granite_path", () -> new StonePathBlock(Properties.STONE));
+    public static final Supplier<Block> POLISHED_TUFF_PATH = registerBlock("polished_tuff_path", () -> new StonePathBlock(Properties.STONE));
+    public static final Supplier<Block> SMOOTH_STONE_PATH = registerBlock("smooth_stone_path", () -> new StonePathBlock(Properties.STONE));
+    public static final Supplier<Block> STONE_PATH = registerBlock("stone_path", () -> new StonePathBlock(Properties.STONE));
+    public static final Supplier<Block> STONE_BRICKS_PATH = registerBlock("stone_bricks_path", () -> new StonePathBlock(Properties.STONE));
+    public static final Supplier<Block> TUFF_PATH = registerBlock("tuff_path", () -> new StonePathBlock(Properties.STONE));
 
     /**
      * Original Author: StarfishStudios
@@ -170,10 +194,10 @@ public class FBlocks {
     public static final Supplier<Block> ACACIA_CABINET = registerBlock("acacia_cabinet", () -> new CabinetBlock(Properties.WOOD));
     public static final Supplier<Block> DARK_OAK_CABINET = registerBlock("dark_oak_cabinet", () -> new CabinetBlock(Properties.WOOD));
     public static final Supplier<Block> MANGROVE_CABINET = registerBlock("mangrove_cabinet", () -> new CabinetBlock(Properties.WOOD));
-    public static final Supplier<Block> CHERRY_CABINET = registerBlock("cherry_cabinet", () -> new CabinetBlock(Properties.WOOD));
-    public static final Supplier<Block> BAMBOO_CABINET = registerBlock("bamboo_cabinet", () -> new CabinetBlock(Properties.WOOD));
-    public static final Supplier<Block> CRIMSON_CABINET = registerBlock("crimson_cabinet", () -> new CabinetBlock(Properties.WOOD));
-    public static final Supplier<Block> WARPED_CABINET = registerBlock("warped_cabinet", () -> new CabinetBlock(Properties.WOOD));
+    public static final Supplier<Block> CHERRY_CABINET = registerBlock("cherry_cabinet", () -> new CabinetBlock(Properties.CHERRY_WOOD));
+    public static final Supplier<Block> BAMBOO_CABINET = registerBlock("bamboo_cabinet", () -> new CabinetBlock(Properties.BAMBOO_WOOD));
+    public static final Supplier<Block> CRIMSON_CABINET = registerBlock("crimson_cabinet", () -> new CabinetBlock(Properties.NETHER_WOOD));
+    public static final Supplier<Block> WARPED_CABINET = registerBlock("warped_cabinet", () -> new CabinetBlock(Properties.NETHER_WOOD));
 
     public static final Supplier<Block> OAK_DRAWER = registerBlock("oak_drawer", () -> new DrawerBlock(Properties.WOOD));
     public static final Supplier<Block> SPRUCE_DRAWER = registerBlock("spruce_drawer", () -> new DrawerBlock(Properties.WOOD));
@@ -182,10 +206,10 @@ public class FBlocks {
     public static final Supplier<Block> ACACIA_DRAWER = registerBlock("acacia_drawer", () -> new DrawerBlock(Properties.WOOD));
     public static final Supplier<Block> DARK_OAK_DRAWER = registerBlock("dark_oak_drawer", () -> new DrawerBlock(Properties.WOOD));
     public static final Supplier<Block> MANGROVE_DRAWER = registerBlock("mangrove_drawer", () -> new DrawerBlock(Properties.WOOD));
-    public static final Supplier<Block> CHERRY_DRAWER = registerBlock("cherry_drawer", () -> new DrawerBlock(Properties.WOOD));
-    public static final Supplier<Block> BAMBOO_DRAWER = registerBlock("bamboo_drawer", () -> new DrawerBlock(Properties.WOOD));
-    public static final Supplier<Block> CRIMSON_DRAWER = registerBlock("crimson_drawer", () -> new DrawerBlock(Properties.WOOD));
-    public static final Supplier<Block> WARPED_DRAWER = registerBlock("warped_drawer", () -> new DrawerBlock(Properties.WOOD));
+    public static final Supplier<Block> CHERRY_DRAWER = registerBlock("cherry_drawer", () -> new DrawerBlock(Properties.CHERRY_WOOD));
+    public static final Supplier<Block> BAMBOO_DRAWER = registerBlock("bamboo_drawer", () -> new DrawerBlock(Properties.BAMBOO_WOOD));
+    public static final Supplier<Block> CRIMSON_DRAWER = registerBlock("crimson_drawer", () -> new DrawerBlock(Properties.NETHER_WOOD));
+    public static final Supplier<Block> WARPED_DRAWER = registerBlock("warped_drawer", () -> new DrawerBlock(Properties.NETHER_WOOD));
 
 
     public static final Supplier<Block> OAK_BAR_COUNTER = registerBlock("oak_bar_counter", () -> new BarCounterBlock(Properties.WOOD));
@@ -195,10 +219,10 @@ public class FBlocks {
     public static final Supplier<Block> ACACIA_BAR_COUNTER = registerBlock("acacia_bar_counter", () -> new BarCounterBlock(Properties.WOOD));
     public static final Supplier<Block> DARK_OAK_BAR_COUNTER = registerBlock("dark_oak_bar_counter", () -> new BarCounterBlock(Properties.WOOD));
     public static final Supplier<Block> MANGROVE_BAR_COUNTER = registerBlock("mangrove_bar_counter", () -> new BarCounterBlock(Properties.WOOD));
-    public static final Supplier<Block> CHERRY_BAR_COUNTER = registerBlock("cherry_bar_counter", () -> new BarCounterBlock(Properties.WOOD));
-    public static final Supplier<Block> BAMBOO_BAR_COUNTER = registerBlock("bamboo_bar_counter", () -> new BarCounterBlock(Properties.WOOD));
-    public static final Supplier<Block> CRIMSON_BAR_COUNTER = registerBlock("crimson_bar_counter", () -> new BarCounterBlock(Properties.WOOD));
-    public static final Supplier<Block> WARPED_BAR_COUNTER = registerBlock("warped_bar_counter", () -> new BarCounterBlock(Properties.WOOD));
+    public static final Supplier<Block> CHERRY_BAR_COUNTER = registerBlock("cherry_bar_counter", () -> new BarCounterBlock(Properties.CHERRY_WOOD));
+    public static final Supplier<Block> BAMBOO_BAR_COUNTER = registerBlock("bamboo_bar_counter", () -> new BarCounterBlock(Properties.BAMBOO_WOOD));
+    public static final Supplier<Block> CRIMSON_BAR_COUNTER = registerBlock("crimson_bar_counter", () -> new BarCounterBlock(Properties.NETHER_WOOD));
+    public static final Supplier<Block> WARPED_BAR_COUNTER = registerBlock("warped_bar_counter", () -> new BarCounterBlock(Properties.NETHER_WOOD));
 
     public static final Supplier<Block> OAK_STOOL = registerBlock("oak_stool", () -> new StoolBlock(Properties.WOOD));
     public static final Supplier<Block> SPRUCE_STOOL = registerBlock("spruce_stool", () -> new StoolBlock(Properties.WOOD));
@@ -207,10 +231,10 @@ public class FBlocks {
     public static final Supplier<Block> ACACIA_STOOL = registerBlock("acacia_stool", () -> new StoolBlock(Properties.WOOD));
     public static final Supplier<Block> DARK_OAK_STOOL = registerBlock("dark_oak_stool", () -> new StoolBlock(Properties.WOOD));
     public static final Supplier<Block> MANGROVE_STOOL = registerBlock("mangrove_stool", () -> new StoolBlock(Properties.WOOD));
-    public static final Supplier<Block> CHERRY_STOOL = registerBlock("cherry_stool", () -> new StoolBlock(Properties.WOOD));
-    public static final Supplier<Block> BAMBOO_STOOL = registerBlock("bamboo_stool", () -> new StoolBlock(Properties.WOOD));
-    public static final Supplier<Block> CRIMSON_STOOL = registerBlock("crimson_stool", () -> new StoolBlock(Properties.WOOD));
-    public static final Supplier<Block> WARPED_STOOL = registerBlock("warped_stool", () -> new StoolBlock(Properties.WOOD));
+    public static final Supplier<Block> CHERRY_STOOL = registerBlock("cherry_stool", () -> new StoolBlock(Properties.CHERRY_WOOD));
+    public static final Supplier<Block> BAMBOO_STOOL = registerBlock("bamboo_stool", () -> new StoolBlock(Properties.BAMBOO_WOOD));
+    public static final Supplier<Block> CRIMSON_STOOL = registerBlock("crimson_stool", () -> new StoolBlock(Properties.NETHER_WOOD));
+    public static final Supplier<Block> WARPED_STOOL = registerBlock("warped_stool", () -> new StoolBlock(Properties.NETHER_WOOD));
 
     public static final Supplier<Block> OAK_KITCHEN_CABINET = registerBlock("oak_kitchen_cabinet", () -> new KitchenCabinetBlock(Properties.WOOD));
     public static final Supplier<Block> SPRUCE_KITCHEN_CABINET = registerBlock("spruce_kitchen_cabinet", () -> new KitchenCabinetBlock(Properties.WOOD));
@@ -219,10 +243,10 @@ public class FBlocks {
     public static final Supplier<Block> ACACIA_KITCHEN_CABINET = registerBlock("acacia_kitchen_cabinet", () -> new KitchenCabinetBlock(Properties.WOOD));
     public static final Supplier<Block> DARK_OAK_KITCHEN_CABINET = registerBlock("dark_oak_kitchen_cabinet", () -> new KitchenCabinetBlock(Properties.WOOD));
     public static final Supplier<Block> MANGROVE_KITCHEN_CABINET = registerBlock("mangrove_kitchen_cabinet", () -> new KitchenCabinetBlock(Properties.WOOD));
-    public static final Supplier<Block> CHERRY_KITCHEN_CABINET = registerBlock("cherry_kitchen_cabinet", () -> new KitchenCabinetBlock(Properties.WOOD));
-    public static final Supplier<Block> BAMBOO_KITCHEN_CABINET = registerBlock("bamboo_kitchen_cabinet", () -> new KitchenCabinetBlock(Properties.WOOD));
-    public static final Supplier<Block> CRIMSON_KITCHEN_CABINET = registerBlock("crimson_kitchen_cabinet", () -> new KitchenCabinetBlock(Properties.WOOD));
-    public static final Supplier<Block> WARPED_KITCHEN_CABINET = registerBlock("warped_kitchen_cabinet", () -> new KitchenCabinetBlock(Properties.WOOD));
+    public static final Supplier<Block> CHERRY_KITCHEN_CABINET = registerBlock("cherry_kitchen_cabinet", () -> new KitchenCabinetBlock(Properties.CHERRY_WOOD));
+    public static final Supplier<Block> BAMBOO_KITCHEN_CABINET = registerBlock("bamboo_kitchen_cabinet", () -> new KitchenCabinetBlock(Properties.BAMBOO_WOOD));
+    public static final Supplier<Block> CRIMSON_KITCHEN_CABINET = registerBlock("crimson_kitchen_cabinet", () -> new KitchenCabinetBlock(Properties.NETHER_WOOD));
+    public static final Supplier<Block> WARPED_KITCHEN_CABINET = registerBlock("warped_kitchen_cabinet", () -> new KitchenCabinetBlock(Properties.NETHER_WOOD));
 
     public static final Supplier<Block> OAK_KITCHEN_SINK = registerBlock("oak_kitchen_sink", () -> new KitchenSinkBlock(Properties.WOOD));
     public static final Supplier<Block> SPRUCE_KITCHEN_SINK = registerBlock("spruce_kitchen_sink", () -> new KitchenSinkBlock(Properties.WOOD));
@@ -231,10 +255,10 @@ public class FBlocks {
     public static final Supplier<Block> ACACIA_KITCHEN_SINK = registerBlock("acacia_kitchen_sink", () -> new KitchenSinkBlock(Properties.WOOD));
     public static final Supplier<Block> DARK_OAK_KITCHEN_SINK = registerBlock("dark_oak_kitchen_sink", () -> new KitchenSinkBlock(Properties.WOOD));
     public static final Supplier<Block> MANGROVE_KITCHEN_SINK = registerBlock("mangrove_kitchen_sink", () -> new KitchenSinkBlock(Properties.WOOD));
-    public static final Supplier<Block> CHERRY_KITCHEN_SINK = registerBlock("cherry_kitchen_sink", () -> new KitchenSinkBlock(Properties.WOOD));
-    public static final Supplier<Block> BAMBOO_KITCHEN_SINK = registerBlock("bamboo_kitchen_sink", () -> new KitchenSinkBlock(Properties.WOOD));
-    public static final Supplier<Block> CRIMSON_KITCHEN_SINK = registerBlock("crimson_kitchen_sink", () -> new KitchenSinkBlock(Properties.WOOD));
-    public static final Supplier<Block> WARPED_KITCHEN_SINK = registerBlock("warped_kitchen_sink", () -> new KitchenSinkBlock(Properties.WOOD));
+    public static final Supplier<Block> CHERRY_KITCHEN_SINK = registerBlock("cherry_kitchen_sink", () -> new KitchenSinkBlock(Properties.CHERRY_WOOD));
+    public static final Supplier<Block> BAMBOO_KITCHEN_SINK = registerBlock("bamboo_kitchen_sink", () -> new KitchenSinkBlock(Properties.BAMBOO_WOOD));
+    public static final Supplier<Block> CRIMSON_KITCHEN_SINK = registerBlock("crimson_kitchen_sink", () -> new KitchenSinkBlock(Properties.NETHER_WOOD));
+    public static final Supplier<Block> WARPED_KITCHEN_SINK = registerBlock("warped_kitchen_sink", () -> new KitchenSinkBlock(Properties.NETHER_WOOD));
 
     public static final Supplier<Block> OAK_KITCHEN_DRAWER = registerBlock("oak_kitchen_drawer", () -> new KitchenDrawerBlock(Properties.WOOD));
     public static final Supplier<Block> SPRUCE_KITCHEN_DRAWER = registerBlock("spruce_kitchen_drawer", () -> new KitchenDrawerBlock(Properties.WOOD));
@@ -243,10 +267,10 @@ public class FBlocks {
     public static final Supplier<Block> ACACIA_KITCHEN_DRAWER = registerBlock("acacia_kitchen_drawer", () -> new KitchenDrawerBlock(Properties.WOOD));
     public static final Supplier<Block> DARK_OAK_KITCHEN_DRAWER = registerBlock("dark_oak_kitchen_drawer", () -> new KitchenDrawerBlock(Properties.WOOD));
     public static final Supplier<Block> MANGROVE_KITCHEN_DRAWER = registerBlock("mangrove_kitchen_drawer", () -> new KitchenDrawerBlock(Properties.WOOD));
-    public static final Supplier<Block> CHERRY_KITCHEN_DRAWER = registerBlock("cherry_kitchen_drawer", () -> new KitchenDrawerBlock(Properties.WOOD));
-    public static final Supplier<Block> BAMBOO_KITCHEN_DRAWER = registerBlock("bamboo_kitchen_drawer", () -> new KitchenDrawerBlock(Properties.WOOD));
-    public static final Supplier<Block> CRIMSON_KITCHEN_DRAWER = registerBlock("crimson_kitchen_drawer", () -> new KitchenDrawerBlock(Properties.WOOD));
-    public static final Supplier<Block> WARPED_KITCHEN_DRAWER = registerBlock("warped_kitchen_drawer", () -> new KitchenDrawerBlock(Properties.WOOD));
+    public static final Supplier<Block> CHERRY_KITCHEN_DRAWER = registerBlock("cherry_kitchen_drawer", () -> new KitchenDrawerBlock(Properties.CHERRY_WOOD));
+    public static final Supplier<Block> BAMBOO_KITCHEN_DRAWER = registerBlock("bamboo_kitchen_drawer", () -> new KitchenDrawerBlock(Properties.BAMBOO_WOOD));
+    public static final Supplier<Block> CRIMSON_KITCHEN_DRAWER = registerBlock("crimson_kitchen_drawer", () -> new KitchenDrawerBlock(Properties.NETHER_WOOD));
+    public static final Supplier<Block> WARPED_KITCHEN_DRAWER = registerBlock("warped_kitchen_drawer", () -> new KitchenDrawerBlock(Properties.NETHER_WOOD));
 
     public static final Supplier<Block> OAK_KITCHEN_CABINETRY = registerBlock("oak_kitchen_cabinetry", () -> new KitchenCabinetryBlock(Properties.WOOD));
     public static final Supplier<Block> SPRUCE_KITCHEN_CABINETRY = registerBlock("spruce_kitchen_cabinetry", () -> new KitchenCabinetryBlock(Properties.WOOD));
@@ -255,10 +279,10 @@ public class FBlocks {
     public static final Supplier<Block> ACACIA_KITCHEN_CABINETRY = registerBlock("acacia_kitchen_cabinetry", () -> new KitchenCabinetryBlock(Properties.WOOD));
     public static final Supplier<Block> DARK_OAK_KITCHEN_CABINETRY = registerBlock("dark_oak_kitchen_cabinetry", () -> new KitchenCabinetryBlock(Properties.WOOD));
     public static final Supplier<Block> MANGROVE_KITCHEN_CABINETRY = registerBlock("mangrove_kitchen_cabinetry", () -> new KitchenCabinetryBlock(Properties.WOOD));
-    public static final Supplier<Block> CHERRY_KITCHEN_CABINETRY = registerBlock("cherry_kitchen_cabinetry", () -> new KitchenCabinetryBlock(Properties.WOOD));
-    public static final Supplier<Block> BAMBOO_KITCHEN_CABINETRY = registerBlock("bamboo_kitchen_cabinetry", () -> new KitchenCabinetryBlock(Properties.WOOD));
-    public static final Supplier<Block> CRIMSON_KITCHEN_CABINETRY = registerBlock("crimson_kitchen_cabinetry", () -> new KitchenCabinetryBlock(Properties.WOOD));
-    public static final Supplier<Block> WARPED_KITCHEN_CABINETRY = registerBlock("warped_kitchen_cabinetry", () -> new KitchenCabinetryBlock(Properties.WOOD));
+    public static final Supplier<Block> CHERRY_KITCHEN_CABINETRY = registerBlock("cherry_kitchen_cabinetry", () -> new KitchenCabinetryBlock(Properties.CHERRY_WOOD));
+    public static final Supplier<Block> BAMBOO_KITCHEN_CABINETRY = registerBlock("bamboo_kitchen_cabinetry", () -> new KitchenCabinetryBlock(Properties.BAMBOO_WOOD));
+    public static final Supplier<Block> CRIMSON_KITCHEN_CABINETRY = registerBlock("crimson_kitchen_cabinetry", () -> new KitchenCabinetryBlock(Properties.NETHER_WOOD));
+    public static final Supplier<Block> WARPED_KITCHEN_CABINETRY = registerBlock("warped_kitchen_cabinetry", () -> new KitchenCabinetryBlock(Properties.NETHER_WOOD));
 
     public static <T extends Block> Supplier<T> registerBlock(String name, Supplier<T> block) {
         Supplier<T> supplier = FRegistry.registerBlock(name, block);

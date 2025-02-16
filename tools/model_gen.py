@@ -54,6 +54,10 @@ def main():
         "blue", "magenta", "purple", "pink", "white", "light_gray", "gray", 
         "black", "brown"
     ])
+    # New stones.json file added for stone models:
+    ensure_file("stones.json", [
+        "granite", "diorite", "andesite", "limestone", "basalt"
+    ])
     # Sample variants.json – you can modify or extend these definitions:
     sample_variants = {
         "open": {
@@ -76,12 +80,14 @@ def main():
     }
     ensure_file("variants.json", sample_variants)
 
-    # 1. Ask if the datagen is for wood or colored
-    mod_category = input("Is this datagen for wood or colored? (wood/colored): ").strip().lower()
+    # 1. Ask if the datagen is for wood, colored, or stone
+    mod_category = input("Is this datagen for wood, colored, or stone? (wood/colored/stone): ").strip().lower()
     if mod_category == "wood":
         names = load_json_file("woods.json")
     elif mod_category == "colored":
         names = load_json_file("colors.json")
+    elif mod_category == "stone":
+        names = load_json_file("stones.json")
     else:
         print("Invalid option. Exiting.")
         return
@@ -134,7 +140,7 @@ def main():
     item_models_dir = os.path.join("furnies", "models", "item")
     os.makedirs(item_models_dir, exist_ok=True)
 
-    # 6. For each wood/color name, generate the files.
+    # 6. For each wood/color/stone name, generate the files.
     for name in names:
         # Initialize blockstate and a set to hold unique model file suffixes.
         blockstate = {"variants": {}}

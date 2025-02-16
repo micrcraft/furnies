@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "furnies:block/path/stone"
+        },
+        "facing=east": {
+            "model": "furnies:block/path/stone",
+            "y": 90
+        },
+        "facing=south": {
+            "model": "furnies:block/path/stone",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "furnies:block/path/stone",
+            "y": 270
+        }
+    }
+}
