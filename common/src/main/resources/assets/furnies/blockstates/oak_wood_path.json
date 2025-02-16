@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "furnies:block/wood_path/oak"
+        },
+        "facing=east": {
+            "model": "furnies:block/wood_path/oak",
+            "y": 90
+        },
+        "facing=south": {
+            "model": "furnies:block/wood_path/oak",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "furnies:block/wood_path/oak",
+            "y": 270
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "furnies:block/wood_path/jungle"
+        },
+        "facing=east": {
+            "model": "furnies:block/wood_path/jungle",
+            "y": 90
+        },
+        "facing=south": {
+            "model": "furnies:block/wood_path/jungle",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "furnies:block/wood_path/jungle",
+            "y": 270
+        }
+    }
+}

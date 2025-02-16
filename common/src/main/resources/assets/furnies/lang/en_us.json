@@ -141,6 +141,18 @@
     "block.furnies.crimson_cabinet": "Crimson Cabinet",
     "block.furnies.warped_cabinet": "Warped Cabinet",
 
+    "block.furnies.oak_drawer": "Oak Drawer",
+    "block.furnies.spruce_drawer": "Spruce Drawer",
+    "block.furnies.birch_drawer": "Birch Drawer",
+    "block.furnies.jungle_drawer": "Jungle Drawer",
+    "block.furnies.acacia_drawer": "Acacia Drawer",
+    "block.furnies.dark_oak_drawer": "Dark Oak Drawer",
+    "block.furnies.mangrove_drawer": "Mangrove Drawer",
+    "block.furnies.cherry_drawer": "Cherry Drawer",
+    "block.furnies.bamboo_drawer": "Bamboo Drawer",
+    "block.furnies.crimson_drawer": "Crimson Drawer",
+    "block.furnies.warped_drawer": "Warped Drawer",
+
     "block.furnies.oak_bar_counter": "Oak Bar Counter",
     "block.furnies.spruce_bar_counter": "Spruce Bar Counter",
     "block.furnies.birch_bar_counter": "Birch Bar Counter",
@@ -209,6 +221,7 @@
 
     "container.furnies.furni_crafter": "Furni Crafter",
     "container.furnies.cabinet": "Cabinet",
+    "container.furnies.drawer": "Drawer",
     "container.furnies.kitchen_cabinet": "Kitchen Cabinet",
     "container.furnies.kitchen_drawer": "Kitchen Drawer",
     "container.furnies.freezer": "Freezer",

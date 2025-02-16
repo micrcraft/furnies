@@ -37,6 +37,21 @@ public class FBlockEntityTypes {
                     FBlocks.CRIMSON_KITCHEN_CABINET.get()
             ));
 
+    public static final Supplier<BlockEntityType<DrawerBlockEntity>> DRAWER = FRegistry.registerBlockEntityType("drawer",
+            () -> FRegistry.createBlockEntityType(DrawerBlockEntity::new,
+                    FBlocks.OAK_DRAWER.get(),
+                    FBlocks.SPRUCE_DRAWER.get(),
+                    FBlocks.BIRCH_DRAWER.get(),
+                    FBlocks.JUNGLE_DRAWER.get(),
+                    FBlocks.ACACIA_DRAWER.get(),
+                    FBlocks.DARK_OAK_DRAWER.get(),
+                    FBlocks.MANGROVE_DRAWER.get(),
+                    FBlocks.BAMBOO_DRAWER.get(),
+                    FBlocks.CHERRY_DRAWER.get(),
+                    FBlocks.WARPED_DRAWER.get(),
+                    FBlocks.CRIMSON_DRAWER.get()
+            ));
+
     public static final Supplier<BlockEntityType<KitchenDrawerBlockEntity>> KITCHEN_DRAWER = FRegistry.registerBlockEntityType("kitchen_drawer",
             () -> FRegistry.createBlockEntityType(KitchenDrawerBlockEntity::new,
                     FBlocks.OAK_KITCHEN_DRAWER.get(),
